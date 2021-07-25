@@ -1,0 +1,5078 @@
+{
+  "SongDetails": [
+    {
+      "title": "Joseph's Coat",
+      "lines": [
+        {
+          "speaker": "JACOB",
+          "format": "{0} {1}, {2} {3} {4} {5} {6} {7}",
+          "words": [
+            "Joseph's",
+            "mother",
+            "she",
+            "was",
+            "quite",
+            "my",
+            "favourite",
+            "wife"
+          ]
+        },
+        {
+          "speaker": "JACOB",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7}",
+          "words": [
+            "I",
+            "never",
+            "really",
+            "loved",
+            "another",
+            "all",
+            "my",
+            "life"
+          ]
+        },
+        {
+          "speaker": "JACOB",
+          "format": "{0} {1} {2} {3} {4} {5}",
+          "words": [
+            "And",
+            "Joseph",
+            "was",
+            "my",
+            "joy",
+            "because"
+          ]
+        },
+        {
+          "speaker": "JACOB",
+          "format": "{0} {1} {2} {3} {4}",
+          "words": [
+            "He",
+            "reminded",
+            "me",
+            "of",
+            "her"
+          ]
+        },
+        {
+          "speaker": "NARRATOR",
+          "format": "{0} {1} {2}, {3} {4} {5} {6} {7}",
+          "words": [
+            "Through",
+            "young",
+            "Joseph",
+            "Jacob",
+            "lived",
+            "his",
+            "youth",
+            "again"
+          ]
+        },
+        {
+          "speaker": "NARRATOR",
+          "format": "{0} {1}, {2} {3}, {4} {5} {6} {7} {8}, {9} {10}",
+          "words": [
+            "Loved",
+            "him",
+            "praised",
+            "him",
+            "gave",
+            "him",
+            "all",
+            "he",
+            "could",
+            "but",
+            "then"
+          ]
+        },
+        {
+          "speaker": "NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6}",
+          "words": [
+            "It",
+            "made",
+            "the",
+            "rest",
+            "feel",
+            "second",
+            "best"
+          ]
+        },
+        {
+          "speaker": "NARRATOR",
+          "format": "{0} {1} {2} {3} {4} -",
+          "words": [
+            "And",
+            "even",
+            "if",
+            "they",
+            "were"
+          ]
+        },
+        {
+          "speaker": "BROTHERS",
+          "format": "{0} {1} {2} {3}-{4}",
+          "words": [
+            "Being",
+            "told",
+            "we're",
+            "also",
+            "rans"
+          ]
+        },
+        {
+          "speaker": "BROTHERS",
+          "format": "{0} {1} {2} {3} {4} {5}",
+          "words": [
+            "Does",
+            "not",
+            "makes",
+            "us",
+            "Joseph",
+            "fans"
+          ]
+        },
+        {
+          "speaker": "NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7} {8}",
+          "words": [
+            "But",
+            "where",
+            "they",
+            "had",
+            "really",
+            "missed",
+            "the",
+            "boat",
+            "is"
+          ]
+        },
+        {
+          "speaker": "BROTHERS",
+          "format": "{0} {1} {2} {3} {4}-{5} {6} {7} {8}",
+          "words": [
+            "We're",
+            "great",
+            "guys",
+            "but",
+            "no",
+            "one",
+            "seems",
+            "to",
+            "notice"
+          ]
+        },
+        {
+          "speaker": "NARRATOR",
+          "format": "{0} {1} {2} {3} {4}",
+          "words": [
+            "Joseph's",
+            "charm",
+            "and",
+            "winning",
+            "smile"
+          ]
+        },
+        {
+          "speaker": "NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6}",
+          "words": [
+            "Failed",
+            "to",
+            "slay",
+            "them",
+            "in",
+            "the",
+            "aisle"
+          ]
+        },
+        {
+          "speaker": "NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6}",
+          "words": [
+            "And",
+            "his",
+            "father",
+            "couldn't",
+            "see",
+            "the",
+            "danger"
+          ]
+        },
+        {
+          "speaker": "NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5}",
+          "words": [
+            "He",
+            "could",
+            "not",
+            "imagine",
+            "any",
+            "danger"
+          ]
+        },
+        {
+          "speaker": "NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7} {8} {9}",
+          "words": [
+            "He",
+            "just",
+            "saw",
+            "in",
+            "Joseph",
+            "all",
+            "his",
+            "dreams",
+            "come",
+            "true"
+          ]
+        },
+        {
+          "speaker": "NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7} {8} {9}",
+          "words": [
+            "Jacob",
+            "wanted",
+            "to",
+            "show",
+            "the",
+            "world",
+            "he",
+            "loved",
+            "his",
+            "son"
+          ]
+        },
+        {
+          "speaker": "NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7} {8} {9}",
+          "words": [
+            "To",
+            "make",
+            "it",
+            "clear",
+            "that",
+            "Joseph",
+            "was",
+            "the",
+            "special",
+            "one"
+          ]
+        },
+        {
+          "speaker": "NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6}",
+          "words": [
+            "So",
+            "Jacob",
+            "bought",
+            "his",
+            "son",
+            "a",
+            "coat"
+          ]
+        },
+        {
+          "speaker": "NARRATOR",
+          "format": "{0} {1}-{2} {3} {4} {5}",
+          "words": [
+            "A",
+            "multi",
+            "coloured",
+            "coat",
+            "to",
+            "wear"
+          ]
+        },
+        {
+          "speaker": "BROTHERS and FEMALE ENSEMBLE",
+          "format": "{0} {1} {2} {3},",
+          "words": [
+            "Joseph's",
+            "coat",
+            "was",
+            "elegant"
+          ]
+        },
+        {
+          "speaker": "BROTHERS and FEMALE ENSEMBLE",
+          "format": "{0} {1} {2} {3}",
+          "words": [
+            "The",
+            "cut",
+            "was",
+            "fine"
+          ]
+        },
+        {
+          "speaker": "BROTHERS and FEMALE ENSEMBLE",
+          "format": "{0} {1} {2} {3} {4}",
+          "words": [
+            "The",
+            "tasteful",
+            "style",
+            "was",
+            "the"
+          ]
+        },
+        {
+          "speaker": "BROTHERS and FEMALE ENSEMBLE",
+          "format": "{0} {1} {2} {3}",
+          "words": [
+            "Ultimate",
+            "in",
+            "good",
+            "design"
+          ]
+        },
+        {
+          "speaker": "BROTHERS and FEMALE ENSEMBLE",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7}",
+          "words": [
+            "And",
+            "this",
+            "is",
+            "why",
+            "it",
+            "caught",
+            "the",
+            "eye"
+          ]
+        },
+        {
+          "speaker": "BROTHERS and FEMALE ENSEMBLE",
+          "format": "{0} {1} {2} {3} {4} {5}",
+          "words": [
+            "A",
+            "king",
+            "would",
+            "stop",
+            "and",
+            "stare"
+          ]
+        },
+        {
+          "speaker": "NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5}",
+          "words": [
+            "And",
+            "when",
+            "Joseph",
+            "tried",
+            "it",
+            "on"
+          ]
+        },
+        {
+          "speaker": "NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6}",
+          "words": [
+            "He",
+            "knew",
+            "his",
+            "sheepskin",
+            "days",
+            "were",
+            "gone"
+          ]
+        },
+        {
+          "speaker": "CHILDREN, FEMALE ENSEMBLE and NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6}",
+          "words": [
+            "Such",
+            "a",
+            "dazzling",
+            "coat",
+            "of",
+            "many",
+            "colours"
+          ]
+        },
+        {
+          "speaker": "CHILDREN, FEMALE ENSEMBLE and NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7}",
+          "words": [
+            "How",
+            "he",
+            "loved",
+            "his",
+            "coat",
+            "of",
+            "many",
+            "colours"
+          ]
+        },
+        {
+          "speaker": "NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5}",
+          "words": [
+            "In",
+            "a",
+            "class",
+            "above",
+            "the",
+            "rest"
+          ]
+        },
+        {
+          "speaker": "NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6}",
+          "words": [
+            "It",
+            "even",
+            "went",
+            "well",
+            "with",
+            "his",
+            "vest"
+          ]
+        },
+        {
+          "speaker": "NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6}",
+          "words": [
+            "Such",
+            "a",
+            "stunning",
+            "coat",
+            "of",
+            "many",
+            "colours"
+          ]
+        },
+        {
+          "speaker": "NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7}",
+          "words": [
+            "How",
+            "he",
+            "loved",
+            "his",
+            "coat",
+            "of",
+            "many",
+            "colours"
+          ]
+        },
+        {
+          "speaker": "NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7}",
+          "words": [
+            "It",
+            "was",
+            "red",
+            "and",
+            "yellow",
+            "and",
+            "green",
+            "and"
+          ]
+        },
+        {
+          "speaker": "NARRATOR",
+          "format": "{0} {1} {2}",
+          "words": [
+            "Brown",
+            "and",
+            "blue"
+          ]
+        },
+        {
+          "speaker": "NARRATOR",
+          "format": "{0} {1} {2}",
+          "words": [
+            "Joseph's",
+            "brothers",
+            "weren't"
+          ]
+        },
+        {
+          "speaker": "NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5}",
+          "words": [
+            "Too",
+            "pleased",
+            "with",
+            "what",
+            "they",
+            "saw"
+          ]
+        },
+        {
+          "speaker": "BROTHERS",
+          "format": "{0} {1} {2} {3} {4}",
+          "words": [
+            "We",
+            "have",
+            "never",
+            "liked",
+            "him"
+          ]
+        },
+        {
+          "speaker": "BROTHERS",
+          "format": "{0} {1} {2} {3}",
+          "words": [
+            "All",
+            "that",
+            "much",
+            "before"
+          ]
+        },
+        {
+          "speaker": "BROTHERS",
+          "format": "{0} {1} {2} {3}",
+          "words": [
+            "And",
+            "now",
+            "this",
+            "coat"
+          ]
+        },
+        {
+          "speaker": "BROTHERS",
+          "format": "{0} {1} {2} {3}",
+          "words": [
+            "Has",
+            "got",
+            "our",
+            "goat"
+          ]
+        },
+        {
+          "speaker": "BROTHERS",
+          "format": "{0} {1} {2} {3} {4}",
+          "words": [
+            "We",
+            "feel",
+            "life",
+            "is",
+            "unfair"
+          ]
+        },
+        {
+          "speaker": "CHILDREN, FEMALE ENSEMBLE and NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5}",
+          "words": [
+            "And",
+            "when",
+            "Joseph",
+            "graced",
+            "the",
+            "scene"
+          ]
+        },
+        {
+          "speaker": "CHILDREN, FEMALE ENSEMBLE and NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6}",
+          "words": [
+            "His",
+            "brothers",
+            "turned",
+            "a",
+            "shade",
+            "of",
+            "green"
+          ]
+        },
+        {
+          "speaker": "CHILDREN, FEMALE ENSEMBLE and NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5}",
+          "words": [
+            "His",
+            "astounding",
+            "clothing",
+            "took",
+            "the",
+            "biscuit"
+          ]
+        },
+        {
+          "speaker": "BROTHERS",
+          "format": "{0} {1} {2} {3} {4} {5} {6}",
+          "words": [
+            "Quite",
+            "the",
+            "smoothest",
+            "person",
+            "in",
+            "the",
+            "district"
+          ]
+        },
+        {
+          "speaker": "FEMALE ENSEMBLE and JOSEPH",
+          "format": "{0} {1} {2}, {3} {4} {5}",
+          "words": [
+            "I",
+            "look",
+            "handsome",
+            "I",
+            "look",
+            "smart"
+          ]
+        },
+        {
+          "speaker": "FEMALE ENSEMBLE and JOSEPH",
+          "format": "{0} {1} {2} {3} {4} {5}",
+          "words": [
+            "I",
+            "am",
+            "walking",
+            "work",
+            "of",
+            "art"
+          ]
+        },
+        {
+          "speaker": "FEMALE ENSEMBLE and JOSEPH",
+          "format": "{0} {1} {2} {3} {4} {5}",
+          "words": [
+            "Such",
+            "a",
+            "dazzling",
+            "coat",
+            "of",
+            "colours"
+          ]
+        },
+        {
+          "speaker": "FEMALE ENSEMBLE and JOSEPH",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7}",
+          "words": [
+            "How",
+            "I",
+            "love",
+            "my",
+            "coat",
+            "of",
+            "many",
+            "colours"
+          ]
+        },
+        {
+          "speaker": "CHILDREN, ENSEMBLE, JOSEPH and NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7} {8}",
+          "words": [
+            "It",
+            "was",
+            "red",
+            "and",
+            "yellow",
+            "and",
+            "green",
+            "and",
+            "brown"
+          ]
+        },
+        {
+          "speaker": "CHILDREN, ENSEMBLE, JOSEPH and NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7}",
+          "words": [
+            "And",
+            "scarlet",
+            "and",
+            "black",
+            "and",
+            "ochre",
+            "and",
+            "peach"
+          ]
+        },
+        {
+          "speaker": "CHILDREN, ENSEMBLE, JOSEPH and NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7}",
+          "words": [
+            "And",
+            "ruby",
+            "and",
+            "olive",
+            "and",
+            "violet",
+            "and",
+            "fawn"
+          ]
+        },
+        {
+          "speaker": "CHILDREN, ENSEMBLE, JOSEPH and NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7}",
+          "words": [
+            "And",
+            "lilac",
+            "and",
+            "gold",
+            "and",
+            "chocolate",
+            "and",
+            "mauve"
+          ]
+        },
+        {
+          "speaker": "CHILDREN, ENSEMBLE, JOSEPH and NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7}",
+          "words": [
+            "And",
+            "cream",
+            "and",
+            "crimson",
+            "and",
+            "silver",
+            "and",
+            "rose"
+          ]
+        },
+        {
+          "speaker": "CHILDREN, ENSEMBLE, JOSEPH and NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7}",
+          "words": [
+            "And",
+            "azure",
+            "and",
+            "lemon",
+            "and",
+            "russet",
+            "and",
+            "grey"
+          ]
+        },
+        {
+          "speaker": "CHILDREN, ENSEMBLE, JOSEPH and NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7}",
+          "words": [
+            "And",
+            "purple",
+            "and",
+            "white",
+            "and",
+            "pink",
+            "and",
+            "orange"
+          ]
+        },
+        {
+          "speaker": "CHILDREN, ENSEMBLE, JOSEPH and NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7} {8}",
+          "words": [
+            "And",
+            "red",
+            "and",
+            "yellow",
+            "and",
+            "green",
+            "and",
+            "brown",
+            "and"
+          ]
+        },
+        {
+          "speaker": "CHILDREN, ENSEMBLE, JOSEPH and NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6}",
+          "words": [
+            "Scarlet",
+            "and",
+            "black",
+            "and",
+            "ochre",
+            "and",
+            "peach"
+          ]
+        },
+        {
+          "speaker": "CHILDREN, ENSEMBLE, JOSEPH and NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7}",
+          "words": [
+            "And",
+            "ruby",
+            "and",
+            "olive",
+            "and",
+            "violet",
+            "and",
+            "fawn"
+          ]
+        },
+        {
+          "speaker": "CHILDREN, ENSEMBLE, JOSEPH and NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7}",
+          "words": [
+            "And",
+            "lilac",
+            "and",
+            "gold",
+            "and",
+            "chocolate",
+            "and",
+            "mauve"
+          ]
+        },
+        {
+          "speaker": "CHILDREN, ENSEMBLE, JOSEPH and NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7}",
+          "words": [
+            "And",
+            "cream",
+            "and",
+            "crimson",
+            "and",
+            "silver",
+            "and",
+            "rose"
+          ]
+        },
+        {
+          "speaker": "CHILDREN, ENSEMBLE, JOSEPH and NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7}",
+          "words": [
+            "And",
+            "azure",
+            "and",
+            "lemon",
+            "and",
+            "russet",
+            "and",
+            "grey"
+          ]
+        },
+        {
+          "speaker": "CHILDREN, ENSEMBLE, JOSEPH and NARRATOR",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7}",
+          "words": [
+            "And",
+            "purple",
+            "and",
+            "white",
+            "and",
+            "pink",
+            "and",
+            "orange"
+          ]
+        },
+        {
+          "speaker": "CHILDREN, ENSEMBLE, JOSEPH and NARRATOR",
+          "format": "{0} {1}",
+          "words": [
+            "And",
+            "blue"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "One More Angel in Heaven",
+      "lines": [
+        {
+          "speaker": "REUBEN",
+          "format": "{0} {1} {2} {3} {4} {5}, {6} {7} {8} {9} {10}",
+          "words": [
+            "Father",
+            "we've",
+            "something",
+            "to",
+            "tell",
+            "you",
+            "a",
+            "story",
+            "of",
+            "our",
+            "time"
+          ]
+        },
+        {
+          "speaker": "REUBEN",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7} {8} {9}",
+          "words": [
+            "A",
+            "tragic",
+            "but",
+            "inspiring",
+            "tale",
+            "of",
+            "manhood",
+            "in",
+            "its",
+            "prime"
+          ]
+        },
+        {
+          "speaker": "REUBEN",
+          "format": "{0} {1} {2} {3} {4} {5} {6} -",
+          "words": [
+            "You",
+            "know",
+            "you",
+            "had",
+            "a",
+            "dozen",
+            "sons"
+          ]
+        },
+        {
+          "speaker": "REUBEN",
+          "format": "{0} {1} {2} {3} {4} {5}",
+          "words": [
+            "Well",
+            "now",
+            "that's",
+            "not",
+            "quite",
+            "true"
+          ]
+        },
+        {
+          "speaker": "REUBEN",
+          "format": "{0} {1} {2} {3}, {4} {5} {6},",
+          "words": [
+            "But",
+            "feel",
+            "no",
+            "sorrow",
+            "do",
+            "not",
+            "grieve"
+          ]
+        },
+        {
+          "speaker": "REUBEN",
+          "format": "{0} {1} {2} {3} {4} {5}",
+          "words": [
+            "He",
+            "would",
+            "not",
+            "want",
+            "you",
+            "to"
+          ]
+        },
+        {
+          "speaker": "MALE ENSEMBLE, REUBEN and REUBEN'S WIFE",
+          "format": "{0} {1} {2} {3} {4} {5}",
+          "words": [
+            "There's",
+            "one",
+            "more",
+            "angel",
+            "in",
+            "heaven"
+          ]
+        },
+        {
+          "speaker": "MALE ENSEMBLE, REUBEN and REUBEN'S WIFE",
+          "format": "{0} {1} {2} {3} {4} {5} {6}",
+          "words": [
+            "There's",
+            "one",
+            "more",
+            "star",
+            "in",
+            "the",
+            "sky"
+          ]
+        },
+        {
+          "speaker": "MALE ENSEMBLE, REUBEN and REUBEN'S WIFE",
+          "format": "{0} {1} {2} {3} {4}",
+          "words": [
+            "Joseph",
+            "we'll",
+            "never",
+            "forget",
+            "you"
+          ]
+        },
+        {
+          "speaker": "MALE ENSEMBLE, REUBEN and REUBEN'S WIFE",
+          "format": "{0} {1} {2} {3} {4} {5} {6}",
+          "words": [
+            "It's",
+            "tough",
+            "but",
+            "we're",
+            "gonna",
+            "get",
+            "by"
+          ]
+        },
+        {
+          "speaker": "MALE ENSEMBLE, REUBEN and REUBEN'S WIFE",
+          "format": "{0} {1} {2} {3} {4} {5} {6}",
+          "words": [
+            "There's",
+            "one",
+            "less",
+            "place",
+            "a",
+            "our",
+            "table"
+          ]
+        },
+        {
+          "speaker": "MALE ENSEMBLE, REUBEN and REUBEN'S WIFE",
+          "format": "{0} {1} {2} {3} {4} {5} {6}",
+          "words": [
+            "There's",
+            "one",
+            "more",
+            "tear",
+            "in",
+            "my",
+            "eye"
+          ]
+        },
+        {
+          "speaker": "BROTHERS",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7}",
+          "words": [
+            "But",
+            "Joseph",
+            "the",
+            "things",
+            "that",
+            "you",
+            "stood",
+            "for"
+          ]
+        },
+        {
+          "speaker": "REUBEN",
+          "format": "{0} {1} {2} {3} {4} {5}",
+          "words": [
+            "Like",
+            "peace",
+            "and",
+            "love",
+            "never",
+            "die"
+          ]
+        },
+        {
+          "speaker": "REUBEN",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7}",
+          "words": [
+            "When",
+            "I",
+            "think",
+            "of",
+            "his",
+            "last",
+            "great",
+            "battle"
+          ]
+        },
+        {
+          "speaker": "REUBEN",
+          "format": "{0} {1} {2} {3} {4} {5}",
+          "words": [
+            "A",
+            "lump",
+            "comes",
+            "to",
+            "my",
+            "throat"
+          ]
+        },
+        {
+          "speaker": "REUBEN",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7}",
+          "words": [
+            "It",
+            "takes",
+            "a",
+            "man",
+            "who",
+            "knows",
+            "no",
+            "fear"
+          ]
+        },
+        {
+          "speaker": "REUBEN",
+          "format": "{0} {1} {2} {3} {4}",
+          "words": [
+            "To",
+            "wrestle",
+            "with",
+            "a",
+            "goat"
+          ]
+        },
+        {
+          "speaker": "REUBEN",
+          "format": "{0} {1}-{2} {3} {4} {5} {6}",
+          "words": [
+            "His",
+            "blood",
+            "stained",
+            "coat",
+            "is",
+            "tribute",
+            "to"
+          ]
+        },
+        {
+          "speaker": "REUBEN",
+          "format": "{0} {1} {2}",
+          "words": [
+            "His",
+            "final",
+            "sacrifice"
+          ]
+        },
+        {
+          "speaker": "REUBEN",
+          "format": "{0} {1} {2} {3} {4} {5} {6}",
+          "words": [
+            "His",
+            "body",
+            "may",
+            "be",
+            "past",
+            "its",
+            "peak"
+          ]
+        },
+        {
+          "speaker": "REUBEN",
+          "format": "{0} {1} {2} {3} {4}",
+          "words": [
+            "But",
+            "his",
+            "soul's",
+            "in",
+            "paradise"
+          ]
+        },
+        {
+          "speaker": "JACOB",
+          "format": "{0} {1} {2} {3} {4} {5} {6}",
+          "words": [
+            "There's",
+            "one",
+            "less",
+            "place",
+            "a",
+            "our",
+            "table"
+          ]
+        },
+        {
+          "speaker": "JACOB",
+          "format": "{0} {1} {2} {3} {4} {5} {6}",
+          "words": [
+            "There's",
+            "one",
+            "more",
+            "tear",
+            "in",
+            "my",
+            "eye"
+          ]
+        },
+        {
+          "speaker": "BROTHERS",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7}",
+          "words": [
+            "But",
+            "Joseph",
+            "the",
+            "things",
+            "that",
+            "you",
+            "stood",
+            "for"
+          ]
+        },
+        {
+          "speaker": "REUBEN",
+          "format": "{0} {1} {2} {3} {4} {5}",
+          "words": [
+            "Like",
+            "truth",
+            "and",
+            "light",
+            "never",
+            "die"
+          ]
+        },
+        {
+          "speaker": "BROTHERS",
+          "format": "{0} {1} {2} {3} {4} {5} {6}",
+          "words": [
+            "Carve",
+            "his",
+            "name",
+            "with",
+            "pride",
+            "and",
+            "courage"
+          ]
+        },
+        {
+          "speaker": "NAPHTALI",
+          "format": "{0} {1} {2} {3} {4}",
+          "words": [
+            "Let",
+            "no",
+            "tear",
+            "be",
+            "shed"
+          ]
+        },
+        {
+          "speaker": "BROTHERS",
+          "format": "{0} {1} {2} {3} {4} {5} {6} {7}",
+          "words": [
+            "If",
+            "he",
+            "had",
+            "not",
+            "laid",
+            "down",
+            "his",
+            "life"
+          ]
+        },
+        {
+          "speaker": "BROTHERS",
+          "format": "{0} {1} {2} {3} {4} {5}",
+          "words": [
+            "We",
+            "all",
+            "would",
+            "now",
+            "be",
+            "dead"
+          ]
+        }
+      ]
+    }
+  ],
+  "WordDetails": {
+    "josephs": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        12,
+        0
+      ],
+      [
+        0,
+        21,
+        0
+      ],
+      [
+        0,
+        37,
+        0
+      ]
+    ],
+    "mother": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "she": [
+      [
+        0,
+        0,
+        2
+      ]
+    ],
+    "was": [
+      [
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        18,
+        6
+      ],
+      [
+        0,
+        21,
+        2
+      ],
+      [
+        0,
+        22,
+        2
+      ],
+      [
+        0,
+        23,
+        3
+      ],
+      [
+        0,
+        35,
+        1
+      ],
+      [
+        0,
+        52,
+        1
+      ]
+    ],
+    "quite": [
+      [
+        0,
+        0,
+        4
+      ],
+      [
+        0,
+        47,
+        0
+      ],
+      [
+        1,
+        3,
+        4
+      ]
+    ],
+    "my": [
+      [
+        0,
+        0,
+        5
+      ],
+      [
+        0,
+        1,
+        6
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        51,
+        3
+      ],
+      [
+        1,
+        11,
+        5
+      ],
+      [
+        1,
+        15,
+        4
+      ],
+      [
+        1,
+        23,
+        5
+      ]
+    ],
+    "favourite": [
+      [
+        0,
+        0,
+        6
+      ]
+    ],
+    "wife": [
+      [
+        0,
+        0,
+        7
+      ]
+    ],
+    "i": [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        48,
+        0
+      ],
+      [
+        0,
+        48,
+        3
+      ],
+      [
+        0,
+        49,
+        0
+      ],
+      [
+        0,
+        51,
+        1
+      ],
+      [
+        1,
+        14,
+        1
+      ]
+    ],
+    "never": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        39,
+        2
+      ],
+      [
+        1,
+        8,
+        2
+      ],
+      [
+        1,
+        13,
+        4
+      ],
+      [
+        1,
+        25,
+        4
+      ]
+    ],
+    "really": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        10,
+        4
+      ]
+    ],
+    "loved": [
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        5,
+        0
+      ],
+      [
+        0,
+        17,
+        7
+      ],
+      [
+        0,
+        30,
+        2
+      ],
+      [
+        0,
+        34,
+        2
+      ]
+    ],
+    "another": [
+      [
+        0,
+        1,
+        4
+      ]
+    ],
+    "all": [
+      [
+        0,
+        1,
+        5
+      ],
+      [
+        0,
+        5,
+        6
+      ],
+      [
+        0,
+        16,
+        5
+      ],
+      [
+        0,
+        40,
+        0
+      ],
+      [
+        1,
+        29,
+        1
+      ]
+    ],
+    "life": [
+      [
+        0,
+        1,
+        7
+      ],
+      [
+        0,
+        43,
+        2
+      ],
+      [
+        1,
+        28,
+        7
+      ]
+    ],
+    "and": [
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        7,
+        0
+      ],
+      [
+        0,
+        12,
+        2
+      ],
+      [
+        0,
+        14,
+        0
+      ],
+      [
+        0,
+        25,
+        0
+      ],
+      [
+        0,
+        26,
+        4
+      ],
+      [
+        0,
+        27,
+        0
+      ],
+      [
+        0,
+        35,
+        3
+      ],
+      [
+        0,
+        35,
+        5
+      ],
+      [
+        0,
+        35,
+        7
+      ],
+      [
+        0,
+        36,
+        1
+      ],
+      [
+        0,
+        41,
+        0
+      ],
+      [
+        0,
+        44,
+        0
+      ],
+      [
+        0,
+        52,
+        3
+      ],
+      [
+        0,
+        52,
+        5
+      ],
+      [
+        0,
+        52,
+        7
+      ],
+      [
+        0,
+        53,
+        0
+      ],
+      [
+        0,
+        53,
+        2
+      ],
+      [
+        0,
+        53,
+        4
+      ],
+      [
+        0,
+        53,
+        6
+      ],
+      [
+        0,
+        54,
+        0
+      ],
+      [
+        0,
+        54,
+        2
+      ],
+      [
+        0,
+        54,
+        4
+      ],
+      [
+        0,
+        54,
+        6
+      ],
+      [
+        0,
+        55,
+        0
+      ],
+      [
+        0,
+        55,
+        2
+      ],
+      [
+        0,
+        55,
+        4
+      ],
+      [
+        0,
+        55,
+        6
+      ],
+      [
+        0,
+        56,
+        0
+      ],
+      [
+        0,
+        56,
+        2
+      ],
+      [
+        0,
+        56,
+        4
+      ],
+      [
+        0,
+        56,
+        6
+      ],
+      [
+        0,
+        57,
+        0
+      ],
+      [
+        0,
+        57,
+        2
+      ],
+      [
+        0,
+        57,
+        4
+      ],
+      [
+        0,
+        57,
+        6
+      ],
+      [
+        0,
+        58,
+        0
+      ],
+      [
+        0,
+        58,
+        2
+      ],
+      [
+        0,
+        58,
+        4
+      ],
+      [
+        0,
+        58,
+        6
+      ],
+      [
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        59,
+        2
+      ],
+      [
+        0,
+        59,
+        4
+      ],
+      [
+        0,
+        59,
+        6
+      ],
+      [
+        0,
+        59,
+        8
+      ],
+      [
+        0,
+        60,
+        1
+      ],
+      [
+        0,
+        60,
+        3
+      ],
+      [
+        0,
+        60,
+        5
+      ],
+      [
+        0,
+        61,
+        0
+      ],
+      [
+        0,
+        61,
+        2
+      ],
+      [
+        0,
+        61,
+        4
+      ],
+      [
+        0,
+        61,
+        6
+      ],
+      [
+        0,
+        62,
+        0
+      ],
+      [
+        0,
+        62,
+        2
+      ],
+      [
+        0,
+        62,
+        4
+      ],
+      [
+        0,
+        62,
+        6
+      ],
+      [
+        0,
+        63,
+        0
+      ],
+      [
+        0,
+        63,
+        2
+      ],
+      [
+        0,
+        63,
+        4
+      ],
+      [
+        0,
+        63,
+        6
+      ],
+      [
+        0,
+        64,
+        0
+      ],
+      [
+        0,
+        64,
+        2
+      ],
+      [
+        0,
+        64,
+        4
+      ],
+      [
+        0,
+        64,
+        6
+      ],
+      [
+        0,
+        65,
+        0
+      ],
+      [
+        0,
+        65,
+        2
+      ],
+      [
+        0,
+        65,
+        4
+      ],
+      [
+        0,
+        65,
+        6
+      ],
+      [
+        0,
+        66,
+        0
+      ],
+      [
+        1,
+        13,
+        2
+      ],
+      [
+        1,
+        25,
+        2
+      ],
+      [
+        1,
+        26,
+        5
+      ]
+    ],
+    "joseph": [
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        4,
+        2
+      ],
+      [
+        0,
+        9,
+        4
+      ],
+      [
+        0,
+        16,
+        4
+      ],
+      [
+        0,
+        18,
+        5
+      ],
+      [
+        0,
+        27,
+        2
+      ],
+      [
+        0,
+        44,
+        2
+      ],
+      [
+        1,
+        8,
+        0
+      ],
+      [
+        1,
+        12,
+        1
+      ],
+      [
+        1,
+        24,
+        1
+      ]
+    ],
+    "joy": [
+      [
+        0,
+        2,
+        4
+      ]
+    ],
+    "because": [
+      [
+        0,
+        2,
+        5
+      ]
+    ],
+    "he": [
+      [
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        5,
+        7
+      ],
+      [
+        0,
+        15,
+        0
+      ],
+      [
+        0,
+        16,
+        0
+      ],
+      [
+        0,
+        17,
+        6
+      ],
+      [
+        0,
+        28,
+        0
+      ],
+      [
+        0,
+        30,
+        1
+      ],
+      [
+        0,
+        34,
+        1
+      ],
+      [
+        1,
+        5,
+        0
+      ],
+      [
+        1,
+        28,
+        1
+      ]
+    ],
+    "reminded": [
+      [
+        0,
+        3,
+        1
+      ]
+    ],
+    "me": [
+      [
+        0,
+        3,
+        2
+      ]
+    ],
+    "of": [
+      [
+        0,
+        3,
+        3
+      ],
+      [
+        0,
+        29,
+        4
+      ],
+      [
+        0,
+        30,
+        5
+      ],
+      [
+        0,
+        33,
+        4
+      ],
+      [
+        0,
+        34,
+        5
+      ],
+      [
+        0,
+        45,
+        5
+      ],
+      [
+        0,
+        49,
+        4
+      ],
+      [
+        0,
+        50,
+        4
+      ],
+      [
+        0,
+        51,
+        5
+      ],
+      [
+        1,
+        0,
+        8
+      ],
+      [
+        1,
+        1,
+        5
+      ],
+      [
+        1,
+        14,
+        3
+      ]
+    ],
+    "her": [
+      [
+        0,
+        3,
+        4
+      ]
+    ],
+    "through": [
+      [
+        0,
+        4,
+        0
+      ]
+    ],
+    "young": [
+      [
+        0,
+        4,
+        1
+      ]
+    ],
+    "jacob": [
+      [
+        0,
+        4,
+        3
+      ],
+      [
+        0,
+        17,
+        0
+      ],
+      [
+        0,
+        19,
+        1
+      ]
+    ],
+    "lived": [
+      [
+        0,
+        4,
+        4
+      ]
+    ],
+    "his": [
+      [
+        0,
+        4,
+        5
+      ],
+      [
+        0,
+        14,
+        1
+      ],
+      [
+        0,
+        16,
+        6
+      ],
+      [
+        0,
+        17,
+        8
+      ],
+      [
+        0,
+        19,
+        3
+      ],
+      [
+        0,
+        28,
+        2
+      ],
+      [
+        0,
+        30,
+        3
+      ],
+      [
+        0,
+        32,
+        5
+      ],
+      [
+        0,
+        34,
+        3
+      ],
+      [
+        0,
+        45,
+        0
+      ],
+      [
+        0,
+        46,
+        0
+      ],
+      [
+        1,
+        14,
+        4
+      ],
+      [
+        1,
+        18,
+        0
+      ],
+      [
+        1,
+        19,
+        0
+      ],
+      [
+        1,
+        20,
+        0
+      ],
+      [
+        1,
+        21,
+        1
+      ],
+      [
+        1,
+        26,
+        1
+      ],
+      [
+        1,
+        28,
+        6
+      ]
+    ],
+    "youth": [
+      [
+        0,
+        4,
+        6
+      ]
+    ],
+    "again": [
+      [
+        0,
+        4,
+        7
+      ]
+    ],
+    "him": [
+      [
+        0,
+        5,
+        1
+      ],
+      [
+        0,
+        5,
+        3
+      ],
+      [
+        0,
+        5,
+        5
+      ],
+      [
+        0,
+        39,
+        4
+      ]
+    ],
+    "praised": [
+      [
+        0,
+        5,
+        2
+      ]
+    ],
+    "gave": [
+      [
+        0,
+        5,
+        4
+      ]
+    ],
+    "could": [
+      [
+        0,
+        5,
+        8
+      ],
+      [
+        0,
+        15,
+        1
+      ]
+    ],
+    "but": [
+      [
+        0,
+        5,
+        9
+      ],
+      [
+        0,
+        10,
+        0
+      ],
+      [
+        0,
+        11,
+        3
+      ],
+      [
+        1,
+        1,
+        2
+      ],
+      [
+        1,
+        4,
+        0
+      ],
+      [
+        1,
+        9,
+        2
+      ],
+      [
+        1,
+        12,
+        0
+      ],
+      [
+        1,
+        21,
+        0
+      ],
+      [
+        1,
+        24,
+        0
+      ]
+    ],
+    "then": [
+      [
+        0,
+        5,
+        10
+      ]
+    ],
+    "it": [
+      [
+        0,
+        6,
+        0
+      ],
+      [
+        0,
+        18,
+        2
+      ],
+      [
+        0,
+        25,
+        4
+      ],
+      [
+        0,
+        27,
+        4
+      ],
+      [
+        0,
+        32,
+        0
+      ],
+      [
+        0,
+        35,
+        0
+      ],
+      [
+        0,
+        52,
+        0
+      ],
+      [
+        1,
+        16,
+        0
+      ]
+    ],
+    "made": [
+      [
+        0,
+        6,
+        1
+      ]
+    ],
+    "the": [
+      [
+        0,
+        6,
+        2
+      ],
+      [
+        0,
+        10,
+        6
+      ],
+      [
+        0,
+        13,
+        5
+      ],
+      [
+        0,
+        14,
+        5
+      ],
+      [
+        0,
+        17,
+        4
+      ],
+      [
+        0,
+        18,
+        7
+      ],
+      [
+        0,
+        22,
+        0
+      ],
+      [
+        0,
+        23,
+        0
+      ],
+      [
+        0,
+        23,
+        4
+      ],
+      [
+        0,
+        25,
+        6
+      ],
+      [
+        0,
+        31,
+        4
+      ],
+      [
+        0,
+        44,
+        4
+      ],
+      [
+        0,
+        46,
+        4
+      ],
+      [
+        0,
+        47,
+        1
+      ],
+      [
+        0,
+        47,
+        5
+      ],
+      [
+        1,
+        7,
+        5
+      ],
+      [
+        1,
+        12,
+        2
+      ],
+      [
+        1,
+        24,
+        2
+      ]
+    ],
+    "rest": [
+      [
+        0,
+        6,
+        3
+      ],
+      [
+        0,
+        31,
+        5
+      ]
+    ],
+    "feel": [
+      [
+        0,
+        6,
+        4
+      ],
+      [
+        0,
+        43,
+        1
+      ],
+      [
+        1,
+        4,
+        1
+      ]
+    ],
+    "second": [
+      [
+        0,
+        6,
+        5
+      ]
+    ],
+    "best": [
+      [
+        0,
+        6,
+        6
+      ]
+    ],
+    "even": [
+      [
+        0,
+        7,
+        1
+      ],
+      [
+        0,
+        32,
+        1
+      ]
+    ],
+    "if": [
+      [
+        0,
+        7,
+        2
+      ],
+      [
+        1,
+        28,
+        0
+      ]
+    ],
+    "they": [
+      [
+        0,
+        7,
+        3
+      ],
+      [
+        0,
+        10,
+        2
+      ],
+      [
+        0,
+        38,
+        4
+      ]
+    ],
+    "were": [
+      [
+        0,
+        7,
+        4
+      ],
+      [
+        0,
+        8,
+        2
+      ],
+      [
+        0,
+        11,
+        0
+      ],
+      [
+        0,
+        28,
+        5
+      ],
+      [
+        1,
+        9,
+        3
+      ]
+    ],
+    "being": [
+      [
+        0,
+        8,
+        0
+      ]
+    ],
+    "told": [
+      [
+        0,
+        8,
+        1
+      ]
+    ],
+    "also": [
+      [
+        0,
+        8,
+        3
+      ]
+    ],
+    "rans": [
+      [
+        0,
+        8,
+        4
+      ]
+    ],
+    "does": [
+      [
+        0,
+        9,
+        0
+      ]
+    ],
+    "not": [
+      [
+        0,
+        9,
+        1
+      ],
+      [
+        0,
+        15,
+        2
+      ],
+      [
+        1,
+        3,
+        3
+      ],
+      [
+        1,
+        4,
+        5
+      ],
+      [
+        1,
+        5,
+        2
+      ],
+      [
+        1,
+        28,
+        3
+      ]
+    ],
+    "makes": [
+      [
+        0,
+        9,
+        2
+      ]
+    ],
+    "us": [
+      [
+        0,
+        9,
+        3
+      ]
+    ],
+    "fans": [
+      [
+        0,
+        9,
+        5
+      ]
+    ],
+    "where": [
+      [
+        0,
+        10,
+        1
+      ]
+    ],
+    "had": [
+      [
+        0,
+        10,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        28,
+        2
+      ]
+    ],
+    "missed": [
+      [
+        0,
+        10,
+        5
+      ]
+    ],
+    "boat": [
+      [
+        0,
+        10,
+        7
+      ]
+    ],
+    "is": [
+      [
+        0,
+        10,
+        8
+      ],
+      [
+        0,
+        25,
+        2
+      ],
+      [
+        0,
+        43,
+        3
+      ],
+      [
+        1,
+        18,
+        4
+      ]
+    ],
+    "great": [
+      [
+        0,
+        11,
+        1
+      ],
+      [
+        1,
+        14,
+        6
+      ]
+    ],
+    "guys": [
+      [
+        0,
+        11,
+        2
+      ]
+    ],
+    "no": [
+      [
+        0,
+        11,
+        4
+      ],
+      [
+        1,
+        4,
+        2
+      ],
+      [
+        1,
+        16,
+        6
+      ],
+      [
+        1,
+        27,
+        1
+      ]
+    ],
+    "one": [
+      [
+        0,
+        11,
+        5
+      ],
+      [
+        0,
+        18,
+        9
+      ],
+      [
+        1,
+        6,
+        1
+      ],
+      [
+        1,
+        7,
+        1
+      ],
+      [
+        1,
+        10,
+        1
+      ],
+      [
+        1,
+        11,
+        1
+      ],
+      [
+        1,
+        22,
+        1
+      ],
+      [
+        1,
+        23,
+        1
+      ]
+    ],
+    "seems": [
+      [
+        0,
+        11,
+        6
+      ]
+    ],
+    "to": [
+      [
+        0,
+        11,
+        7
+      ],
+      [
+        0,
+        13,
+        1
+      ],
+      [
+        0,
+        17,
+        2
+      ],
+      [
+        0,
+        18,
+        0
+      ],
+      [
+        0,
+        20,
+        4
+      ],
+      [
+        1,
+        0,
+        3
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        15,
+        3
+      ],
+      [
+        1,
+        17,
+        0
+      ],
+      [
+        1,
+        18,
+        6
+      ]
+    ],
+    "notice": [
+      [
+        0,
+        11,
+        8
+      ]
+    ],
+    "charm": [
+      [
+        0,
+        12,
+        1
+      ]
+    ],
+    "winning": [
+      [
+        0,
+        12,
+        3
+      ]
+    ],
+    "smile": [
+      [
+        0,
+        12,
+        4
+      ]
+    ],
+    "failed": [
+      [
+        0,
+        13,
+        0
+      ]
+    ],
+    "slay": [
+      [
+        0,
+        13,
+        2
+      ]
+    ],
+    "them": [
+      [
+        0,
+        13,
+        3
+      ]
+    ],
+    "in": [
+      [
+        0,
+        13,
+        4
+      ],
+      [
+        0,
+        16,
+        3
+      ],
+      [
+        0,
+        24,
+        1
+      ],
+      [
+        0,
+        31,
+        0
+      ],
+      [
+        0,
+        47,
+        4
+      ],
+      [
+        1,
+        1,
+        7
+      ],
+      [
+        1,
+        6,
+        4
+      ],
+      [
+        1,
+        7,
+        4
+      ],
+      [
+        1,
+        11,
+        4
+      ],
+      [
+        1,
+        21,
+        3
+      ],
+      [
+        1,
+        23,
+        4
+      ]
+    ],
+    "aisle": [
+      [
+        0,
+        13,
+        6
+      ]
+    ],
+    "father": [
+      [
+        0,
+        14,
+        2
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "couldnt": [
+      [
+        0,
+        14,
+        3
+      ]
+    ],
+    "see": [
+      [
+        0,
+        14,
+        4
+      ]
+    ],
+    "danger": [
+      [
+        0,
+        14,
+        6
+      ],
+      [
+        0,
+        15,
+        5
+      ]
+    ],
+    "imagine": [
+      [
+        0,
+        15,
+        3
+      ]
+    ],
+    "any": [
+      [
+        0,
+        15,
+        4
+      ]
+    ],
+    "just": [
+      [
+        0,
+        16,
+        1
+      ]
+    ],
+    "saw": [
+      [
+        0,
+        16,
+        2
+      ],
+      [
+        0,
+        38,
+        5
+      ]
+    ],
+    "dreams": [
+      [
+        0,
+        16,
+        7
+      ]
+    ],
+    "come": [
+      [
+        0,
+        16,
+        8
+      ]
+    ],
+    "true": [
+      [
+        0,
+        16,
+        9
+      ],
+      [
+        1,
+        3,
+        5
+      ]
+    ],
+    "wanted": [
+      [
+        0,
+        17,
+        1
+      ]
+    ],
+    "show": [
+      [
+        0,
+        17,
+        3
+      ]
+    ],
+    "world": [
+      [
+        0,
+        17,
+        5
+      ]
+    ],
+    "son": [
+      [
+        0,
+        17,
+        9
+      ],
+      [
+        0,
+        19,
+        4
+      ]
+    ],
+    "make": [
+      [
+        0,
+        18,
+        1
+      ]
+    ],
+    "clear": [
+      [
+        0,
+        18,
+        3
+      ]
+    ],
+    "that": [
+      [
+        0,
+        18,
+        4
+      ],
+      [
+        0,
+        40,
+        1
+      ],
+      [
+        1,
+        12,
+        4
+      ],
+      [
+        1,
+        24,
+        4
+      ]
+    ],
+    "special": [
+      [
+        0,
+        18,
+        8
+      ]
+    ],
+    "so": [
+      [
+        0,
+        19,
+        0
+      ]
+    ],
+    "bought": [
+      [
+        0,
+        19,
+        2
+      ]
+    ],
+    "a": [
+      [
+        0,
+        19,
+        5
+      ],
+      [
+        0,
+        20,
+        0
+      ],
+      [
+        0,
+        26,
+        0
+      ],
+      [
+        0,
+        29,
+        1
+      ],
+      [
+        0,
+        31,
+        1
+      ],
+      [
+        0,
+        33,
+        1
+      ],
+      [
+        0,
+        45,
+        3
+      ],
+      [
+        0,
+        50,
+        1
+      ],
+      [
+        1,
+        0,
+        6
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        10,
+        4
+      ],
+      [
+        1,
+        15,
+        0
+      ],
+      [
+        1,
+        16,
+        2
+      ],
+      [
+        1,
+        17,
+        3
+      ],
+      [
+        1,
+        22,
+        4
+      ]
+    ],
+    "coat": [
+      [
+        0,
+        19,
+        6
+      ],
+      [
+        0,
+        20,
+        3
+      ],
+      [
+        0,
+        21,
+        1
+      ],
+      [
+        0,
+        29,
+        3
+      ],
+      [
+        0,
+        30,
+        4
+      ],
+      [
+        0,
+        33,
+        3
+      ],
+      [
+        0,
+        34,
+        4
+      ],
+      [
+        0,
+        41,
+        3
+      ],
+      [
+        0,
+        50,
+        3
+      ],
+      [
+        0,
+        51,
+        4
+      ],
+      [
+        1,
+        18,
+        3
+      ]
+    ],
+    "multi": [
+      [
+        0,
+        20,
+        1
+      ]
+    ],
+    "coloured": [
+      [
+        0,
+        20,
+        2
+      ]
+    ],
+    "wear": [
+      [
+        0,
+        20,
+        5
+      ]
+    ],
+    "elegant": [
+      [
+        0,
+        21,
+        3
+      ]
+    ],
+    "cut": [
+      [
+        0,
+        22,
+        1
+      ]
+    ],
+    "fine": [
+      [
+        0,
+        22,
+        3
+      ]
+    ],
+    "tasteful": [
+      [
+        0,
+        23,
+        1
+      ]
+    ],
+    "style": [
+      [
+        0,
+        23,
+        2
+      ]
+    ],
+    "ultimate": [
+      [
+        0,
+        24,
+        0
+      ]
+    ],
+    "good": [
+      [
+        0,
+        24,
+        2
+      ]
+    ],
+    "design": [
+      [
+        0,
+        24,
+        3
+      ]
+    ],
+    "this": [
+      [
+        0,
+        25,
+        1
+      ],
+      [
+        0,
+        41,
+        2
+      ]
+    ],
+    "why": [
+      [
+        0,
+        25,
+        3
+      ]
+    ],
+    "caught": [
+      [
+        0,
+        25,
+        5
+      ]
+    ],
+    "eye": [
+      [
+        0,
+        25,
+        7
+      ],
+      [
+        1,
+        11,
+        6
+      ],
+      [
+        1,
+        23,
+        6
+      ]
+    ],
+    "king": [
+      [
+        0,
+        26,
+        1
+      ]
+    ],
+    "would": [
+      [
+        0,
+        26,
+        2
+      ],
+      [
+        1,
+        5,
+        1
+      ],
+      [
+        1,
+        29,
+        2
+      ]
+    ],
+    "stop": [
+      [
+        0,
+        26,
+        3
+      ]
+    ],
+    "stare": [
+      [
+        0,
+        26,
+        5
+      ]
+    ],
+    "when": [
+      [
+        0,
+        27,
+        1
+      ],
+      [
+        0,
+        44,
+        1
+      ],
+      [
+        1,
+        14,
+        0
+      ]
+    ],
+    "tried": [
+      [
+        0,
+        27,
+        3
+      ]
+    ],
+    "on": [
+      [
+        0,
+        27,
+        5
+      ]
+    ],
+    "knew": [
+      [
+        0,
+        28,
+        1
+      ]
+    ],
+    "sheepskin": [
+      [
+        0,
+        28,
+        3
+      ]
+    ],
+    "days": [
+      [
+        0,
+        28,
+        4
+      ]
+    ],
+    "gone": [
+      [
+        0,
+        28,
+        6
+      ]
+    ],
+    "such": [
+      [
+        0,
+        29,
+        0
+      ],
+      [
+        0,
+        33,
+        0
+      ],
+      [
+        0,
+        50,
+        0
+      ]
+    ],
+    "dazzling": [
+      [
+        0,
+        29,
+        2
+      ],
+      [
+        0,
+        50,
+        2
+      ]
+    ],
+    "many": [
+      [
+        0,
+        29,
+        5
+      ],
+      [
+        0,
+        30,
+        6
+      ],
+      [
+        0,
+        33,
+        5
+      ],
+      [
+        0,
+        34,
+        6
+      ],
+      [
+        0,
+        51,
+        6
+      ]
+    ],
+    "colours": [
+      [
+        0,
+        29,
+        6
+      ],
+      [
+        0,
+        30,
+        7
+      ],
+      [
+        0,
+        33,
+        6
+      ],
+      [
+        0,
+        34,
+        7
+      ],
+      [
+        0,
+        50,
+        5
+      ],
+      [
+        0,
+        51,
+        7
+      ]
+    ],
+    "how": [
+      [
+        0,
+        30,
+        0
+      ],
+      [
+        0,
+        34,
+        0
+      ],
+      [
+        0,
+        51,
+        0
+      ]
+    ],
+    "class": [
+      [
+        0,
+        31,
+        2
+      ]
+    ],
+    "above": [
+      [
+        0,
+        31,
+        3
+      ]
+    ],
+    "went": [
+      [
+        0,
+        32,
+        2
+      ]
+    ],
+    "well": [
+      [
+        0,
+        32,
+        3
+      ],
+      [
+        1,
+        3,
+        0
+      ],
+      [
+        1,
+        8,
+        1
+      ]
+    ],
+    "with": [
+      [
+        0,
+        32,
+        4
+      ],
+      [
+        0,
+        38,
+        2
+      ],
+      [
+        1,
+        17,
+        2
+      ],
+      [
+        1,
+        26,
+        3
+      ]
+    ],
+    "vest": [
+      [
+        0,
+        32,
+        6
+      ]
+    ],
+    "stunning": [
+      [
+        0,
+        33,
+        2
+      ]
+    ],
+    "red": [
+      [
+        0,
+        35,
+        2
+      ],
+      [
+        0,
+        52,
+        2
+      ],
+      [
+        0,
+        59,
+        1
+      ]
+    ],
+    "yellow": [
+      [
+        0,
+        35,
+        4
+      ],
+      [
+        0,
+        52,
+        4
+      ],
+      [
+        0,
+        59,
+        3
+      ]
+    ],
+    "green": [
+      [
+        0,
+        35,
+        6
+      ],
+      [
+        0,
+        45,
+        6
+      ],
+      [
+        0,
+        52,
+        6
+      ],
+      [
+        0,
+        59,
+        5
+      ]
+    ],
+    "brown": [
+      [
+        0,
+        36,
+        0
+      ],
+      [
+        0,
+        52,
+        8
+      ],
+      [
+        0,
+        59,
+        7
+      ]
+    ],
+    "blue": [
+      [
+        0,
+        36,
+        2
+      ],
+      [
+        0,
+        66,
+        1
+      ]
+    ],
+    "brothers": [
+      [
+        0,
+        37,
+        1
+      ],
+      [
+        0,
+        45,
+        1
+      ]
+    ],
+    "werent": [
+      [
+        0,
+        37,
+        2
+      ]
+    ],
+    "too": [
+      [
+        0,
+        38,
+        0
+      ]
+    ],
+    "pleased": [
+      [
+        0,
+        38,
+        1
+      ]
+    ],
+    "what": [
+      [
+        0,
+        38,
+        3
+      ]
+    ],
+    "we": [
+      [
+        0,
+        39,
+        0
+      ],
+      [
+        0,
+        43,
+        0
+      ],
+      [
+        1,
+        29,
+        0
+      ]
+    ],
+    "have": [
+      [
+        0,
+        39,
+        1
+      ]
+    ],
+    "liked": [
+      [
+        0,
+        39,
+        3
+      ]
+    ],
+    "much": [
+      [
+        0,
+        40,
+        2
+      ]
+    ],
+    "before": [
+      [
+        0,
+        40,
+        3
+      ]
+    ],
+    "now": [
+      [
+        0,
+        41,
+        1
+      ],
+      [
+        1,
+        3,
+        1
+      ],
+      [
+        1,
+        29,
+        3
+      ]
+    ],
+    "has": [
+      [
+        0,
+        42,
+        0
+      ]
+    ],
+    "got": [
+      [
+        0,
+        42,
+        1
+      ]
+    ],
+    "our": [
+      [
+        0,
+        42,
+        2
+      ],
+      [
+        1,
+        0,
+        9
+      ],
+      [
+        1,
+        10,
+        5
+      ],
+      [
+        1,
+        22,
+        5
+      ]
+    ],
+    "goat": [
+      [
+        0,
+        42,
+        3
+      ],
+      [
+        1,
+        17,
+        4
+      ]
+    ],
+    "unfair": [
+      [
+        0,
+        43,
+        4
+      ]
+    ],
+    "graced": [
+      [
+        0,
+        44,
+        3
+      ]
+    ],
+    "scene": [
+      [
+        0,
+        44,
+        5
+      ]
+    ],
+    "turned": [
+      [
+        0,
+        45,
+        2
+      ]
+    ],
+    "shade": [
+      [
+        0,
+        45,
+        4
+      ]
+    ],
+    "astounding": [
+      [
+        0,
+        46,
+        1
+      ]
+    ],
+    "clothing": [
+      [
+        0,
+        46,
+        2
+      ]
+    ],
+    "took": [
+      [
+        0,
+        46,
+        3
+      ]
+    ],
+    "biscuit": [
+      [
+        0,
+        46,
+        5
+      ]
+    ],
+    "smoothest": [
+      [
+        0,
+        47,
+        2
+      ]
+    ],
+    "person": [
+      [
+        0,
+        47,
+        3
+      ]
+    ],
+    "district": [
+      [
+        0,
+        47,
+        6
+      ]
+    ],
+    "look": [
+      [
+        0,
+        48,
+        1
+      ],
+      [
+        0,
+        48,
+        4
+      ]
+    ],
+    "handsome": [
+      [
+        0,
+        48,
+        2
+      ]
+    ],
+    "smart": [
+      [
+        0,
+        48,
+        5
+      ]
+    ],
+    "am": [
+      [
+        0,
+        49,
+        1
+      ]
+    ],
+    "walking": [
+      [
+        0,
+        49,
+        2
+      ]
+    ],
+    "work": [
+      [
+        0,
+        49,
+        3
+      ]
+    ],
+    "art": [
+      [
+        0,
+        49,
+        5
+      ]
+    ],
+    "love": [
+      [
+        0,
+        51,
+        2
+      ],
+      [
+        1,
+        13,
+        3
+      ]
+    ],
+    "scarlet": [
+      [
+        0,
+        53,
+        1
+      ],
+      [
+        0,
+        60,
+        0
+      ]
+    ],
+    "black": [
+      [
+        0,
+        53,
+        3
+      ],
+      [
+        0,
+        60,
+        2
+      ]
+    ],
+    "ochre": [
+      [
+        0,
+        53,
+        5
+      ],
+      [
+        0,
+        60,
+        4
+      ]
+    ],
+    "peach": [
+      [
+        0,
+        53,
+        7
+      ],
+      [
+        0,
+        60,
+        6
+      ]
+    ],
+    "ruby": [
+      [
+        0,
+        54,
+        1
+      ],
+      [
+        0,
+        61,
+        1
+      ]
+    ],
+    "olive": [
+      [
+        0,
+        54,
+        3
+      ],
+      [
+        0,
+        61,
+        3
+      ]
+    ],
+    "violet": [
+      [
+        0,
+        54,
+        5
+      ],
+      [
+        0,
+        61,
+        5
+      ]
+    ],
+    "fawn": [
+      [
+        0,
+        54,
+        7
+      ],
+      [
+        0,
+        61,
+        7
+      ]
+    ],
+    "lilac": [
+      [
+        0,
+        55,
+        1
+      ],
+      [
+        0,
+        62,
+        1
+      ]
+    ],
+    "gold": [
+      [
+        0,
+        55,
+        3
+      ],
+      [
+        0,
+        62,
+        3
+      ]
+    ],
+    "chocolate": [
+      [
+        0,
+        55,
+        5
+      ],
+      [
+        0,
+        62,
+        5
+      ]
+    ],
+    "mauve": [
+      [
+        0,
+        55,
+        7
+      ],
+      [
+        0,
+        62,
+        7
+      ]
+    ],
+    "cream": [
+      [
+        0,
+        56,
+        1
+      ],
+      [
+        0,
+        63,
+        1
+      ]
+    ],
+    "crimson": [
+      [
+        0,
+        56,
+        3
+      ],
+      [
+        0,
+        63,
+        3
+      ]
+    ],
+    "silver": [
+      [
+        0,
+        56,
+        5
+      ],
+      [
+        0,
+        63,
+        5
+      ]
+    ],
+    "rose": [
+      [
+        0,
+        56,
+        7
+      ],
+      [
+        0,
+        63,
+        7
+      ]
+    ],
+    "azure": [
+      [
+        0,
+        57,
+        1
+      ],
+      [
+        0,
+        64,
+        1
+      ]
+    ],
+    "lemon": [
+      [
+        0,
+        57,
+        3
+      ],
+      [
+        0,
+        64,
+        3
+      ]
+    ],
+    "russet": [
+      [
+        0,
+        57,
+        5
+      ],
+      [
+        0,
+        64,
+        5
+      ]
+    ],
+    "grey": [
+      [
+        0,
+        57,
+        7
+      ],
+      [
+        0,
+        64,
+        7
+      ]
+    ],
+    "purple": [
+      [
+        0,
+        58,
+        1
+      ],
+      [
+        0,
+        65,
+        1
+      ]
+    ],
+    "white": [
+      [
+        0,
+        58,
+        3
+      ],
+      [
+        0,
+        65,
+        3
+      ]
+    ],
+    "pink": [
+      [
+        0,
+        58,
+        5
+      ],
+      [
+        0,
+        65,
+        5
+      ]
+    ],
+    "orange": [
+      [
+        0,
+        58,
+        7
+      ],
+      [
+        0,
+        65,
+        7
+      ]
+    ],
+    "weve": [
+      [
+        1,
+        0,
+        1
+      ]
+    ],
+    "something": [
+      [
+        1,
+        0,
+        2
+      ]
+    ],
+    "tell": [
+      [
+        1,
+        0,
+        4
+      ]
+    ],
+    "you": [
+      [
+        1,
+        0,
+        5
+      ],
+      [
+        1,
+        2,
+        0
+      ],
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        1,
+        5,
+        4
+      ],
+      [
+        1,
+        8,
+        4
+      ],
+      [
+        1,
+        12,
+        5
+      ],
+      [
+        1,
+        24,
+        5
+      ]
+    ],
+    "story": [
+      [
+        1,
+        0,
+        7
+      ]
+    ],
+    "time": [
+      [
+        1,
+        0,
+        10
+      ]
+    ],
+    "tragic": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "inspiring": [
+      [
+        1,
+        1,
+        3
+      ]
+    ],
+    "tale": [
+      [
+        1,
+        1,
+        4
+      ]
+    ],
+    "manhood": [
+      [
+        1,
+        1,
+        6
+      ]
+    ],
+    "its": [
+      [
+        1,
+        1,
+        8
+      ],
+      [
+        1,
+        9,
+        0
+      ],
+      [
+        1,
+        20,
+        5
+      ]
+    ],
+    "prime": [
+      [
+        1,
+        1,
+        9
+      ]
+    ],
+    "know": [
+      [
+        1,
+        2,
+        1
+      ]
+    ],
+    "dozen": [
+      [
+        1,
+        2,
+        5
+      ]
+    ],
+    "sons": [
+      [
+        1,
+        2,
+        6
+      ]
+    ],
+    "thats": [
+      [
+        1,
+        3,
+        2
+      ]
+    ],
+    "sorrow": [
+      [
+        1,
+        4,
+        3
+      ]
+    ],
+    "do": [
+      [
+        1,
+        4,
+        4
+      ]
+    ],
+    "grieve": [
+      [
+        1,
+        4,
+        6
+      ]
+    ],
+    "want": [
+      [
+        1,
+        5,
+        3
+      ]
+    ],
+    "theres": [
+      [
+        1,
+        6,
+        0
+      ],
+      [
+        1,
+        7,
+        0
+      ],
+      [
+        1,
+        10,
+        0
+      ],
+      [
+        1,
+        11,
+        0
+      ],
+      [
+        1,
+        22,
+        0
+      ],
+      [
+        1,
+        23,
+        0
+      ]
+    ],
+    "more": [
+      [
+        1,
+        6,
+        2
+      ],
+      [
+        1,
+        7,
+        2
+      ],
+      [
+        1,
+        11,
+        2
+      ],
+      [
+        1,
+        23,
+        2
+      ]
+    ],
+    "angel": [
+      [
+        1,
+        6,
+        3
+      ]
+    ],
+    "heaven": [
+      [
+        1,
+        6,
+        5
+      ]
+    ],
+    "star": [
+      [
+        1,
+        7,
+        3
+      ]
+    ],
+    "sky": [
+      [
+        1,
+        7,
+        6
+      ]
+    ],
+    "forget": [
+      [
+        1,
+        8,
+        3
+      ]
+    ],
+    "tough": [
+      [
+        1,
+        9,
+        1
+      ]
+    ],
+    "gonna": [
+      [
+        1,
+        9,
+        4
+      ]
+    ],
+    "get": [
+      [
+        1,
+        9,
+        5
+      ]
+    ],
+    "by": [
+      [
+        1,
+        9,
+        6
+      ]
+    ],
+    "less": [
+      [
+        1,
+        10,
+        2
+      ],
+      [
+        1,
+        22,
+        2
+      ]
+    ],
+    "place": [
+      [
+        1,
+        10,
+        3
+      ],
+      [
+        1,
+        22,
+        3
+      ]
+    ],
+    "table": [
+      [
+        1,
+        10,
+        6
+      ],
+      [
+        1,
+        22,
+        6
+      ]
+    ],
+    "tear": [
+      [
+        1,
+        11,
+        3
+      ],
+      [
+        1,
+        23,
+        3
+      ],
+      [
+        1,
+        27,
+        2
+      ]
+    ],
+    "things": [
+      [
+        1,
+        12,
+        3
+      ],
+      [
+        1,
+        24,
+        3
+      ]
+    ],
+    "stood": [
+      [
+        1,
+        12,
+        6
+      ],
+      [
+        1,
+        24,
+        6
+      ]
+    ],
+    "for": [
+      [
+        1,
+        12,
+        7
+      ],
+      [
+        1,
+        24,
+        7
+      ]
+    ],
+    "like": [
+      [
+        1,
+        13,
+        0
+      ],
+      [
+        1,
+        25,
+        0
+      ]
+    ],
+    "peace": [
+      [
+        1,
+        13,
+        1
+      ]
+    ],
+    "die": [
+      [
+        1,
+        13,
+        5
+      ],
+      [
+        1,
+        25,
+        5
+      ]
+    ],
+    "think": [
+      [
+        1,
+        14,
+        2
+      ]
+    ],
+    "last": [
+      [
+        1,
+        14,
+        5
+      ]
+    ],
+    "battle": [
+      [
+        1,
+        14,
+        7
+      ]
+    ],
+    "lump": [
+      [
+        1,
+        15,
+        1
+      ]
+    ],
+    "comes": [
+      [
+        1,
+        15,
+        2
+      ]
+    ],
+    "throat": [
+      [
+        1,
+        15,
+        5
+      ]
+    ],
+    "takes": [
+      [
+        1,
+        16,
+        1
+      ]
+    ],
+    "man": [
+      [
+        1,
+        16,
+        3
+      ]
+    ],
+    "who": [
+      [
+        1,
+        16,
+        4
+      ]
+    ],
+    "knows": [
+      [
+        1,
+        16,
+        5
+      ]
+    ],
+    "fear": [
+      [
+        1,
+        16,
+        7
+      ]
+    ],
+    "wrestle": [
+      [
+        1,
+        17,
+        1
+      ]
+    ],
+    "blood": [
+      [
+        1,
+        18,
+        1
+      ]
+    ],
+    "stained": [
+      [
+        1,
+        18,
+        2
+      ]
+    ],
+    "tribute": [
+      [
+        1,
+        18,
+        5
+      ]
+    ],
+    "final": [
+      [
+        1,
+        19,
+        1
+      ]
+    ],
+    "sacrifice": [
+      [
+        1,
+        19,
+        2
+      ]
+    ],
+    "body": [
+      [
+        1,
+        20,
+        1
+      ]
+    ],
+    "may": [
+      [
+        1,
+        20,
+        2
+      ]
+    ],
+    "be": [
+      [
+        1,
+        20,
+        3
+      ],
+      [
+        1,
+        27,
+        3
+      ],
+      [
+        1,
+        29,
+        4
+      ]
+    ],
+    "past": [
+      [
+        1,
+        20,
+        4
+      ]
+    ],
+    "peak": [
+      [
+        1,
+        20,
+        6
+      ]
+    ],
+    "souls": [
+      [
+        1,
+        21,
+        2
+      ]
+    ],
+    "paradise": [
+      [
+        1,
+        21,
+        4
+      ]
+    ],
+    "truth": [
+      [
+        1,
+        25,
+        1
+      ]
+    ],
+    "light": [
+      [
+        1,
+        25,
+        3
+      ]
+    ],
+    "carve": [
+      [
+        1,
+        26,
+        0
+      ]
+    ],
+    "name": [
+      [
+        1,
+        26,
+        2
+      ]
+    ],
+    "pride": [
+      [
+        1,
+        26,
+        4
+      ]
+    ],
+    "courage": [
+      [
+        1,
+        26,
+        6
+      ]
+    ],
+    "let": [
+      [
+        1,
+        27,
+        0
+      ]
+    ],
+    "shed": [
+      [
+        1,
+        27,
+        4
+      ]
+    ],
+    "laid": [
+      [
+        1,
+        28,
+        4
+      ]
+    ],
+    "down": [
+      [
+        1,
+        28,
+        5
+      ]
+    ],
+    "dead": [
+      [
+        1,
+        29,
+        5
+      ]
+    ]
+  }
+}
