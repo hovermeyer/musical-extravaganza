@@ -14,7 +14,7 @@ class SongList extends Component{
         {this.props.songs.map((song,index)=>{
             return <Song title = {song.title} 
             lines = {song.lines} 
-            uniqueID ={"song" + index} 
+            key ={"song" + index} 
             isHide={song.visible}
             song = {index}
             changeSongVisibility = {this.props.changeSongVisibility}

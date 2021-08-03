@@ -11,13 +11,12 @@ class Line extends Component{
         this.onDoubleClick =this.onDoubleClick.bind(this);
         this.toggleLine = this.toggleLine.bind(this);
         this.renderPeek = this.renderPeek.bind(this);
-
-
       }
 
     render() {
         return (<div>
-          <p >{this.getSpeakerLabel()} {this.getLine(this.props.format, this.props.knownWords)} 
+          <p >{this.getSpeakerLabel()} {this.getLine(this.props.format, this.props.knownWords)} &nbsp; &nbsp; 
+          
           <a onClick={this.toggleLine}>{this.renderPeek()}</a></p>
           </div> 
         );    

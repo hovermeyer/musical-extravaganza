@@ -12,6 +12,8 @@ class App extends Component{
         super(props);
         //const data = require('../../Utils/TestInputFile.json');
         const data = require('../../Utils/joseph_v2.json');
+        //const data = require('../../Utils/hamilton.json');
+
 
         let songDetails = data.SongDetails
 
@@ -29,6 +31,7 @@ class App extends Component{
           this.checkWords= this.checkWords.bind(this)
           this.changeSongVisibility = this.changeSongVisibility.bind(this)
           this.toggleLine = this.toggleLine.bind(this)
+          this.saveLog = this.saveLog.bind(this)
 
         
     
@@ -37,7 +40,10 @@ class App extends Component{
           searchValue:"",
           wordsFound:{},
           totalWords:totalWords,
-          foundCount:0
+          log:[],
+          foundCount:0, 
+          uniqueFound:0,
+          uniqueTotal: Object.keys(data["WordDetails"]).length,
         }
 
 
@@ -50,10 +56,12 @@ class App extends Component{
             <HeaderBar 
               searchValue={this.state.searchValue} 
               handleTermChange={this.handleTermChange}
-              uniqueTotal={Object.keys(this.state.wordDetails).length}
-              uniqueFound={Object.keys(this.state.wordsFound).length}
+              uniqueTotal={this.state.uniqueTotal}
+              uniqueFound={this.state.uniqueFound}
               allTotal={this.state.totalWords}
               allFound={this.state.foundCount}
+              log = {this.state.log}
+              savelog = {this.saveLog}
 
             />
             </div>
@@ -72,40 +80,40 @@ class App extends Component{
 
            //Purpose: set search term based on change event passed
   handleTermChange(e){
-    console.log("handling Change")
     let currentState=this.state
     currentState.searchValue = e.target.value
     let indexesToChange = this.checkWords(currentState.searchValue)
-    console.log(indexesToChange)
     if (indexesToChange != null ){
     indexesToChange.forEach(wordLocator=>{
       let song = wordLocator[0]
       let line = wordLocator[1]
-      let word = wordLocator[2]
-      //console.log(song + " " + word + " " + line)
-      
+      let word = wordLocator[2]      
       currentState.songDetails[song].lines[line].knownWords[word] = currentState.songDetails[song].lines[line].words[word] 
       })
-      currentState.wordsFound[currentState.searchValue] = "Found"
+      currentState.wordsFound[currentState.searchValue] = "False"
+      var currentTime = new Date()
+      currentState.log.push({word:currentState.searchValue, revealedNumber :indexesToChange.length, timeStamp: currentTime })
       currentState.searchValue=""
-      console.log(currentState.wordsFound)
       currentState.foundCount +=indexesToChange.length
+      currentState.uniqueFound= Object.keys(currentState.wordsFound).length
+      this.setState(currentState)
+    }else{
+      this.setState({searchValue:currentState.searchValue})
     }
 
-  this.setState(currentState)
 
   }
 
   checkWords(e){
-    console.log("Checking" + this.state.wordsFound[e])
-    //this.state.wordsFound.forEach(word=>console.log(word))
       if(!this.state.wordsFound[e]){
-        console.log("returning indexes")
         return this.state.wordDetails[e]
       }else{
-        console.log("returning null")
         return null
       }
+  }
+
+  saveLog(){
+    console.log("Saving")
   }
 
   toggleLine(lineNumber,songNumber){

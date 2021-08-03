@@ -46,6 +46,7 @@ class Song extends Component{
             return             (<div> {this.props.lines.map((line,index)=>{   
                 return <Line 
                     line = {index}
+                    key = {"line" + index}
                     song={this.props.song}
                     words = {line.words} 
                     knownWords = {line.knownWords}
