@@ -5,16 +5,16 @@ import "./SongList.css"
 
 class SongList extends Component{
 
-    constructor(props){
-        super(props);
-      }
+
     
     render() {
         return (<div>      
         {this.props.songs.map((song,index)=>{
             return <Song title = {song.title} 
             lines = {song.lines} 
-            key ={"song" + index} 
+            key ={index} 
+            foundWords={song.foundWords}
+            totalWords={song.allWords}
             isHide={song.visible}
             song = {index}
             changeSongVisibility = {this.props.changeSongVisibility}

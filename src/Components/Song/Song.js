@@ -14,21 +14,21 @@ class Song extends Component{
 
     render() {
         return (<div> 
-            <h2 className='SongTitle'>{this.props.title} ({this.calculateCompleted()}) <a>{this.renderAction()}</a></h2>
+            <h2 className='SongTitle'>{this.props.title} ({this.calculateCompleted()}) {this.renderAction()}</h2>
             {this.renderLines()}
                 </div>
             );  
     }
 
     calculateCompleted(){
-        var totalWords = 0
+/*        var totalWords = 0
         var totalKnownWords = 0
         this.props.lines.forEach(line=>{
             totalWords += line.words.length
             totalKnownWords += line.knownWords.filter(x=>x!=null).length
-        })
+        })*/
 
-        return totalKnownWords + "/" + totalWords + " " + Math.round(totalKnownWords/totalWords*100*100)/100 +"%"
+        return this.props.foundWords + "/" + this.props.totalWords + " " + Math.round(this.props.foundWords/this.props.totalWords*100*100)/100 +"%"
 
         
     }
@@ -46,7 +46,7 @@ class Song extends Component{
             return             (<div> {this.props.lines.map((line,index)=>{   
                 return <Line 
                     line = {index}
-                    key = {"line" + index}
+                    key = {index}
                     song={this.props.song}
                     words = {line.words} 
                     knownWords = {line.knownWords}

@@ -11,22 +11,27 @@ class App extends Component{
     constructor(props) {
         super(props);
         //const data = require('../../Utils/TestInputFile.json');
-        const data = require('../../Utils/joseph.json');
-        //const data = require('../../Utils/hamilton.json');
+        //const data = require('../../Utils/joseph.json');
+        const data = require('../../Utils/hamilton.json');
 
 
         let songDetails = data.SongDetails
 
         let totalWords = 0 
         songDetails.forEach( song=>{
-          song["visible"] = true
+          song["visible"] = false
+          song["allWords"] = 0
+          song["foundWords"]=0
           song.lines.forEach(line =>
             {
               line.peek=false
               totalWords += line.words.length
-              line.knownWords = line.words.map(word => null)
+              song["allWords"] += line.words.length
+              line["knownWords"] = line.words.map(word => null)
             })
           })
+          //Set first song to be expanded
+          songDetails[0].visible = true;
           this.handleTermChange = this.handleTermChange.bind(this)
           this.checkWords= this.checkWords.bind(this)
           this.changeSongVisibility = this.changeSongVisibility.bind(this)
@@ -81,24 +86,25 @@ class App extends Component{
            //Purpose: set search term based on change event passed
   handleTermChange(e){
     let currentState=this.state
-    currentState.searchValue = e.target.value
-    let indexesToChange = this.checkWords(currentState.searchValue)
+    var searchValue = e.target.value
+    let indexesToChange = this.checkWords(searchValue)
     if (indexesToChange != null ){
     indexesToChange.forEach(wordLocator=>{
       let song = wordLocator[0]
       let line = wordLocator[1]
       let word = wordLocator[2]      
       currentState.songDetails[song].lines[line].knownWords[word] = currentState.songDetails[song].lines[line].words[word] 
+      currentState.songDetails[song].foundWords +=1
       })
-      currentState.wordsFound[currentState.searchValue] = "False"
+      currentState.wordsFound[searchValue] = true
       var currentTime = new Date()
-      currentState.log.push({word:currentState.searchValue, revealedNumber :indexesToChange.length, timeStamp: currentTime })
-      currentState.searchValue=""
+      currentState.log.push({word:searchValue, revealedNumber :indexesToChange.length, timeStamp: currentTime })
       currentState.foundCount +=indexesToChange.length
-      currentState.uniqueFound= Object.keys(currentState.wordsFound).length
+      currentState.uniqueFound+=1
+      currentState.searchValue=""
       this.setState(currentState)
     }else{
-      this.setState({searchValue:currentState.searchValue})
+      this.setState({searchValue:searchValue})
     }
 
 

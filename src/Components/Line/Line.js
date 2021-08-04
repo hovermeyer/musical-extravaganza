@@ -15,8 +15,7 @@ class Line extends Component{
 
     render() {
         return (<div>
-          <p >{this.getSpeakerLabel()} {this.getLine(this.props.format, this.props.knownWords)} &nbsp; &nbsp; 
-          
+          {this.getSpeakerLabel()}<p> {this.getLine(this.props.format, this.props.knownWords)} &nbsp; &nbsp; 
           <a onClick={this.toggleLine}>{this.renderPeek()}</a></p>
           </div> 
         );    
