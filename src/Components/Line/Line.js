@@ -2,63 +2,61 @@ import React, { Component } from "react"
 import "./Line.css"
 
 
-class Line extends Component{
+class Line extends Component {
 
-    constructor(props) {
-        super(props);
-        this.getLine= this.getLine.bind(this);
-        this.getSpeakerLabel= this.getSpeakerLabel.bind(this);
-        this.onDoubleClick =this.onDoubleClick.bind(this);
-        this.toggleLine = this.toggleLine.bind(this);
-        this.renderPeek = this.renderPeek.bind(this);
-      }
+  constructor(props) {
+    super(props);
+    this.getLine = this.getLine.bind(this);
+    this.getSpeakerLabel = this.getSpeakerLabel.bind(this);
+    this.onDoubleClick = this.onDoubleClick.bind(this);
+    this.toggleLine = this.toggleLine.bind(this);
+    this.renderPeek = this.renderPeek.bind(this);
+  }
 
-    render() {
-        return (<div>
-          {this.getSpeakerLabel()}<p> {this.getLine(this.props.format, this.props.knownWords)} &nbsp; &nbsp; 
-          <a onClick={this.toggleLine}>{this.renderPeek()}</a></p>
-          </div> 
-        );    
-      }
+  render() {
+    return (<div>
+      {this.getSpeakerLabel()}<p> {this.getLine(this.props.format, this.props.knownWords)} &nbsp; &nbsp;
+        <a onClick={this.toggleLine}>{this.renderPeek()}</a></p>
+    </div>
+    );
+  }
 
-    getSpeakerLabel(){
-      if (this.props.startOfSection){
-        return <p>{this.props.speaker}:</p>
-      } 
+  getSpeakerLabel() {
+    if (this.props.startOfSection) {
+      return <p>{this.props.speaker}:</p>
     }
+  }
 
-    toggleLine(){
-      this.props.toggleLine(this.props.line, this.props.song)
-    }
+  toggleLine() {
+    this.props.toggleLine(this.props.line, this.props.song)
+  }
 
-    renderPeek(){
-      if (this.props.peek){
-        return "(" +this.getLine(this.props.format, this.props.words)+")"
-      }else{
-        return "+"
-      }
+  renderPeek() {
+    if (this.props.peek) {
+      return "(" + this.getLine(this.props.format, this.props.words) + ")"
+    } else {
+      return "+"
     }
+  }
 
-    getLine(formattedString, knownWords){
-      knownWords.forEach( (word,index)=> {
-        formattedString=formattedString.replace("{"+ index +"}",this.replaceBlank(word))
-      })
-      return formattedString
-    }
+  getLine(formattedString, knownWords) {
+    knownWords.forEach((word, index) => {
+      formattedString = formattedString.replace("{" + index + "}", this.replaceBlank(word))
+    })
+    return formattedString
+  }
 
-    onDoubleClick(e){
-      
-      console.log(e)
-    }
+  onDoubleClick(e) {
+    console.log(e)
+  }
 
-      
-    replaceBlank(word){
-      if (word==null){
-          return "___"    
-      }else{
-          return word
-      }
+  replaceBlank(word) {
+    if (word == null) {
+      return "___"
+    } else {
+      return word
     }
+  }
 
 }
 
