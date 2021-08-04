@@ -23,7 +23,7 @@ class Line extends Component {
 
   getSpeakerLabel() {
     if (this.props.startOfSection) {
-      return <p>{this.props.speaker}:</p>
+      return <p class="speaker-label">{this.props.speaker}:</p>
     }
   }
 
