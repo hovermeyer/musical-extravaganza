@@ -72,7 +72,6 @@ class App extends Component {
         </div>
       </div>
     );
-
   }
 
   //Purpose: set search term based on change event passed
