@@ -11,7 +11,7 @@ class App extends Component{
     constructor(props) {
         super(props);
         //const data = require('../../Utils/TestInputFile.json');
-        const data = require('../../Utils/joseph_v2.json');
+        const data = require('../../Utils/joseph.json');
         //const data = require('../../Utils/hamilton.json');
 
 
