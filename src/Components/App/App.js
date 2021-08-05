@@ -88,7 +88,13 @@ class App extends Component {
       })
       currentState.wordsFound[searchValue] = true
       var currentTime = new Date()
-      currentState.log.push({ word: searchValue, revealedNumber: indexesToChange.length, timeStamp: currentTime })
+      currentState.log.unshift(
+        {
+          time: currentTime,
+          word: searchValue,
+          instance_count: indexesToChange.length,
+        },
+      )
       currentState.foundCount += indexesToChange.length
       currentState.uniqueFound += 1
       currentState.searchValue = ""

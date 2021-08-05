@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import "./HeaderBar.css"
 import ProgressBar from '../ProgressBar/ProgressBar.js'
+import DataTable from 'react-data-table-component'
 
 class HeaderBar extends Component {
   constructor(props) {
@@ -36,9 +37,32 @@ class HeaderBar extends Component {
   }
 
   renderLog() {
-    return (this.props.log.slice(-5,).reverse().map((logEntry, index) => {
-      return (<h4 key={index}> {logEntry.timeStamp.getHours()}:{logEntry.timeStamp.getMinutes().toString().padStart(2, '0')}:{logEntry.timeStamp.getSeconds().toString().padStart(2, '0')}: You found "{logEntry.word}" which is in the show {logEntry.revealedNumber} times </h4>)
-    }))
+    const columns = [
+      {
+        name: 'Timestamp',
+        selector: row => `${row.time.getHours().toString().padStart(2, '0')}:${row.time.getMinutes().toString().padStart(2, '0')}:${row.time.getSeconds().toString().padStart(2, '0')}`,
+        sortable: true,
+      },
+      {
+        name: 'Word',
+        selector: row => row.word,
+        sortable: true,
+      },
+      {
+        name: '# of instances',
+        selector: row => row.instance_count,
+        sortable: true,
+      },
+    ];
+
+    return <DataTable
+      columns={columns}
+      data={this.props.log}
+      striped={true}
+      noDataComponent="No words found yet"
+      fixedHeader={true}
+      fixedHeaderScrollHeight="20vh"
+    />
   }
 
 
