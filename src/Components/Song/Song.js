@@ -2,6 +2,8 @@ import React, { Component } from "react"
 import Line from '../Line/Line.js'
 import './Song.css'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMinus, faPlus } from '@fortawesome/free-solid-svg-icons'
 
 class Song extends Component {
 
@@ -32,9 +34,10 @@ class Song extends Component {
 
   renderAction() {
     if (this.props.isHide) {
-      return <a onClick={this.changeSongVisibility}>-</a>
+      // return <a onClick={this.changeSongVisibility}>-</a>
+      return <a onClick={this.changeSongVisibility}><FontAwesomeIcon icon={faMinus} /></a>
     } else {
-      return <a onClick={this.changeSongVisibility} >+</a>
+      return <a onClick={this.changeSongVisibility} ><FontAwesomeIcon icon={faPlus} /></a>
     }
   }
 

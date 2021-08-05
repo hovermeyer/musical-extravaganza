@@ -1,6 +1,8 @@
 import React, { Component } from "react"
 import "./Line.css"
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEye } from '@fortawesome/free-solid-svg-icons'
 
 class Line extends Component {
 
@@ -35,7 +37,7 @@ class Line extends Component {
     if (this.props.peek) {
       return "(" + this.getLine(this.props.format, this.props.words) + ")"
     } else {
-      return "+"
+      return <FontAwesomeIcon icon={faEye} />
     }
   }
 
