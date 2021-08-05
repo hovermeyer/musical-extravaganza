@@ -12,7 +12,6 @@ class App extends Component {
     //const data = require('../../Utils/joseph.json');
     const data = require('../../Utils/hamilton.json');
 
-
     let songDetails = data.SongDetails
 
     let totalWords = 0

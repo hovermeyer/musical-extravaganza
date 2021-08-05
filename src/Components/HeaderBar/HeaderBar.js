@@ -13,7 +13,7 @@ class HeaderBar extends Component {
       <h1>
         Hamilton Lyric Extravaganza
       </h1>
-      <input onChange={this.handleTermChange} value={this.props.searchValue} /> &nbsp; &nbsp;
+      <input placeholder="type here" onChange={this.handleTermChange} value={this.props.searchValue} /> &nbsp; &nbsp;
       <h2>Statistics</h2>
       <h3>Unique Words: {this.props.uniqueFound} / {this.props.uniqueTotal} ( {Math.round(this.props.uniqueFound / this.props.uniqueTotal * 100 * 100) / 100} %)</h3>
       <h3>All Words: {this.props.allFound} / {this.props.allTotal} ( {Math.round(this.props.allFound / this.props.allTotal * 100 * 100) / 100} %)</h3>
