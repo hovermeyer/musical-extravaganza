@@ -1,5 +1,7 @@
 # musical-extravaganza
 
+Do you know all the lyrics of your favourite musicals? Prove it!
+
 ## Quickstart
 
 ```
