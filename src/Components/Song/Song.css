@@ -6,3 +6,8 @@
   font-size: 36;
   text-align: left;
 }
+
+.song-header {
+  display: flex;
+  align-items: center;
+}
