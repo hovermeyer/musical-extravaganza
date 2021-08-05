@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import "./HeaderBar.css"
+import ProgressBar from '../ProgressBar/ProgressBar.js'
 
 class HeaderBar extends Component {
   constructor(props) {
@@ -16,8 +17,10 @@ class HeaderBar extends Component {
         </h1>
         <input placeholder="type here" onChange={this.handleTermChange} value={this.props.searchValue} /> &nbsp; &nbsp;
         <h2>Statistics</h2>
-        <h3>Unique Words: {this.props.uniqueFound} / {this.props.uniqueTotal} ( {Math.round(this.props.uniqueFound / this.props.uniqueTotal * 100 * 100) / 100} %)</h3>
-        <h3>All Words: {this.props.allFound} / {this.props.allTotal} ( {Math.round(this.props.allFound / this.props.allTotal * 100 * 100) / 100} %)</h3>
+        <h3>Unique Words:</h3>
+        <ProgressBar count={this.props.uniqueFound} total={this.props.uniqueTotal} />
+        <h3>All Words:</h3>
+        <ProgressBar count={this.props.allFound} total={this.props.allTotal} />
         <h3>Log:</h3>
         {this.renderLog()}
       </div>

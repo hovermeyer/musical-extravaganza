@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import Line from '../Line/Line.js'
+import ProgressBar from '../ProgressBar/ProgressBar.js'
 import './Song.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -15,21 +16,18 @@ class Song extends Component {
   }
 
   render() {
-    return (<div>
-      <h2 className='SongTitle'>{this.props.title} ({this.calculateCompleted()}) {this.renderAction()}</h2>
-      {this.renderLines()}
-    </div>
+    return (
+      <div className="song">
+        <div className="song-header">
+          <h2 className="song-title">{this.props.title}</h2>
+          <div className="song-progress">
+            <ProgressBar count={this.props.foundWords} total={this.props.totalWords} />
+          </div>
+          {this.renderAction()}
+        </div>
+        {this.renderLines()}
+      </div>
     );
-  }
-
-  calculateCompleted() {
-    /*        var totalWords = 0
-            var totalKnownWords = 0
-            this.props.lines.forEach(line=>{
-                totalWords += line.words.length
-                totalKnownWords += line.knownWords.filter(x=>x!=null).length
-            })*/
-    return this.props.foundWords + "/" + this.props.totalWords + " " + Math.round(this.props.foundWords / this.props.totalWords * 100 * 100) / 100 + "%"
   }
 
   renderAction() {
@@ -43,7 +41,7 @@ class Song extends Component {
 
   renderLines() {
     if (this.props.isHide) {
-      return (<div> {this.props.lines.map((line, index) => {
+      return (<div className="song-lines"> {this.props.lines.map((line, index) => {
         return <Line
           line={index}
           key={index}

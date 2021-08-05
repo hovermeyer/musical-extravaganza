@@ -1,4 +1,8 @@
-.SongTitle{
-    font-size: 36;
-    text-align: left;
+.song-progress {
+  width: 30%;
+}
+
+.song-title {
+  font-size: 36;
+  text-align: left;
 }
