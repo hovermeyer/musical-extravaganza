@@ -2,3 +2,13 @@
   color: rgb(255, 255, 255);
   margin: 5%;
 }
+
+.stats-line {
+  display: flex;
+  align-items: center;
+}
+
+.overall-progress {
+  width: 60%;
+  margin-left: 10px;
+}

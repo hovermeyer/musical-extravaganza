@@ -1,5 +1,12 @@
 .song-progress {
-  width: 30%;
+  width: 35%;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.song-collapse {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .song-title {

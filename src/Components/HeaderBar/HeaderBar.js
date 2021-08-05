@@ -17,10 +17,18 @@ class HeaderBar extends Component {
         </h1>
         <input placeholder="type here" onChange={this.handleTermChange} value={this.props.searchValue} /> &nbsp; &nbsp;
         <h2>Statistics</h2>
-        <h3>Unique Words:</h3>
-        <ProgressBar count={this.props.uniqueFound} total={this.props.uniqueTotal} />
-        <h3>All Words:</h3>
-        <ProgressBar count={this.props.allFound} total={this.props.allTotal} />
+        <div className="stats-line">
+          <h3>Unique Words:</h3>
+          <div className="overall-progress">
+            <ProgressBar count={this.props.uniqueFound} total={this.props.uniqueTotal} />
+          </div>
+        </div>
+        <div className="stats-line">
+          <h3>All Words:</h3>
+          <div className="overall-progress">
+            <ProgressBar count={this.props.allFound} total={this.props.allTotal} />
+          </div>
+        </div>
         <h3>Log:</h3>
         {this.renderLog()}
       </div>

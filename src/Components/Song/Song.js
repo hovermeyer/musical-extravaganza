@@ -4,7 +4,7 @@ import ProgressBar from '../ProgressBar/ProgressBar.js'
 import './Song.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMinus, faPlus } from '@fortawesome/free-solid-svg-icons'
+import { faCaretDown, faCaretUp } from '@fortawesome/free-solid-svg-icons'
 
 class Song extends Component {
 
@@ -19,11 +19,11 @@ class Song extends Component {
     return (
       <div className="song">
         <div className="song-header">
-          <h2 className="song-title">{this.props.title}</h2>
+          <a onClick={this.changeSongVisibility}><h2 className="song-title">{this.props.title}</h2></a>
+          {this.renderAction()}
           <div className="song-progress">
             <ProgressBar count={this.props.foundWords} total={this.props.totalWords} />
           </div>
-          {this.renderAction()}
         </div>
         {this.renderLines()}
       </div>
@@ -33,9 +33,9 @@ class Song extends Component {
   renderAction() {
     if (this.props.isHide) {
       // return <a onClick={this.changeSongVisibility}>-</a>
-      return <a onClick={this.changeSongVisibility}><FontAwesomeIcon icon={faMinus} /></a>
+      return <a className="song-collapse" onClick={this.changeSongVisibility}><FontAwesomeIcon icon={faCaretDown} /></a>
     } else {
-      return <a onClick={this.changeSongVisibility} ><FontAwesomeIcon icon={faPlus} /></a>
+      return <a className="song-collapse" onClick={this.changeSongVisibility} ><FontAwesomeIcon icon={faCaretUp} /></a>
     }
   }
 

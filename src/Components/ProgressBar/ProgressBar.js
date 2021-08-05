@@ -13,7 +13,7 @@ class ProgressBar extends Component {
     return (
       <div className='progress-wrapper'>
         <span className='progress-title'>{this.percent()}% ({this.props.count}/{this.props.total})</span>
-        <Progress percent={this.percent()} strokeWidth="10" trailWidth="10" strokeColor="#98c964" />
+        <Progress percent={this.percent()} strokeWidth="6" trailWidth="6" strokeColor="#98c964" />
       </div>
     );
   }
