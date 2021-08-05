@@ -71,10 +71,14 @@ class App extends Component {
     );
   }
 
+  normalizeWord(word) {
+    return word.toLowerCase().replace(/[^a-z0-9]/, '');
+  }
+
   //Purpose: set search term based on change event passed
   handleTermChange(e) {
     let currentState = this.state
-    var searchValue = e.target.value
+    var searchValue = this.normalizeWord(e.target.value)
     let indexesToChange = this.checkWords(searchValue)
     if (indexesToChange != null) {
       indexesToChange.forEach(wordLocator => {
