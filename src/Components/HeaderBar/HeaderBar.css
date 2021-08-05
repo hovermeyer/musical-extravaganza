@@ -9,6 +9,11 @@
 }
 
 .overall-progress {
-  width: 60%;
+  width: 70%;
   margin-left: 10px;
+}
+
+.download-button {
+  font-weight: bold;
+  margin-top: 10px;
 }

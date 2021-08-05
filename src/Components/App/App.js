@@ -32,7 +32,6 @@ class App extends Component {
     this.checkWords = this.checkWords.bind(this)
     this.changeSongVisibility = this.changeSongVisibility.bind(this)
     this.toggleLine = this.toggleLine.bind(this)
-    this.saveLog = this.saveLog.bind(this)
 
     this.state = {
       songDetails: songDetails,
@@ -59,7 +58,6 @@ class App extends Component {
             allTotal={this.state.totalWords}
             allFound={this.state.foundCount}
             log={this.state.log}
-            savelog={this.saveLog}
           />
         </div>
         <div className="content">
@@ -110,10 +108,6 @@ class App extends Component {
     } else {
       return null
     }
-  }
-
-  saveLog() {
-    console.log("Saving")
   }
 
   toggleLine(lineNumber, songNumber) {

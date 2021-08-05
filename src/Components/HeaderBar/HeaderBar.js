@@ -3,11 +3,15 @@ import "./HeaderBar.css"
 import ProgressBar from '../ProgressBar/ProgressBar.js'
 import DataTable from 'react-data-table-component'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDownload } from '@fortawesome/free-solid-svg-icons'
+
 class HeaderBar extends Component {
   constructor(props) {
     super(props);
     this.handleTermChange = this.handleTermChange.bind(this)
     this.renderLog = this.renderLog.bind(this)
+    this.downloadSaveFile = this.downloadSaveFile.bind(this)
   }
 
   render() {
@@ -32,6 +36,9 @@ class HeaderBar extends Component {
         </div>
         <h3>Log:</h3>
         {this.renderLog()}
+        <div className="download-button">
+          <a onClick={this.downloadSaveFile}>Download <FontAwesomeIcon icon={faDownload} /></a>
+        </div>
       </div>
     );
   }
@@ -65,6 +72,24 @@ class HeaderBar extends Component {
     />
   }
 
+  formatLog(log) {
+    return (log.map((logEntry) => {
+      return {
+        time: logEntry.time,
+        word: logEntry.word,
+      }
+    }));
+  }
+
+  downloadSaveFile() {
+    const element = document.createElement("a");
+    const file = new Blob([JSON.stringify(this.formatLog(this.props.log))],
+      { type: 'text/plain;charset=utf-8' });
+    element.href = URL.createObjectURL(file);
+    element.download = `${new Date().toISOString()}.log.json`;
+    document.body.appendChild(element);
+    element.click();
+  }
 
   handleTermChange(e) {
     this.props.handleTermChange(e)
