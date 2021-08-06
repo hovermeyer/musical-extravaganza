@@ -17,3 +17,13 @@
   font-weight: bold;
   margin-top: 10px;
 }
+
+.collapse-button-bar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.collapse-all-button {
+  font-weight: bold;
+  margin-right: 10px;
+}

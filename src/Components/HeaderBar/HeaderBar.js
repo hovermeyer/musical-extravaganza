@@ -4,12 +4,14 @@ import ProgressBar from '../ProgressBar/ProgressBar.js'
 import DataTable from 'react-data-table-component'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDownload } from '@fortawesome/free-solid-svg-icons'
+import { faDownload, faPlus, faMinus } from '@fortawesome/free-solid-svg-icons'
 
 class HeaderBar extends Component {
   constructor(props) {
     super(props);
     this.handleTermChange = this.handleTermChange.bind(this)
+    this.expandAllSongs = this.expandAllSongs.bind(this)
+    this.collapseAllSongs = this.collapseAllSongs.bind(this)
     this.renderLog = this.renderLog.bind(this)
     this.downloadSaveFile = this.downloadSaveFile.bind(this)
   }
@@ -21,6 +23,10 @@ class HeaderBar extends Component {
           Hamilton Lyric Extravaganza
         </h1>
         <input placeholder="type here" onChange={this.handleTermChange} value={this.props.searchValue} /> &nbsp; &nbsp;
+        <div className="collapse-button-bar">
+          <a className="collapse-all-button" onClick={this.expandAllSongs}><FontAwesomeIcon icon={faPlus} /> Expand all</a>
+          <a className="collapse-all-button" onClick={this.collapseAllSongs}><FontAwesomeIcon icon={faMinus} /> Collapse all</a>
+        </div>
         <h2>Statistics</h2>
         <div className="stats-line">
           <h3>Unique Words:</h3>
@@ -93,6 +99,14 @@ class HeaderBar extends Component {
 
   handleTermChange(e) {
     this.props.handleTermChange(e)
+  }
+
+  expandAllSongs() {
+    this.props.expandAllSongs()
+  }
+
+  collapseAllSongs() {
+    this.props.collapseAllSongs()
   }
 }
 

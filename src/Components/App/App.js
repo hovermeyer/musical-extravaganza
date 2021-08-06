@@ -32,6 +32,8 @@ class App extends Component {
     this.checkWords = this.checkWords.bind(this)
     this.changeSongVisibility = this.changeSongVisibility.bind(this)
     this.toggleLine = this.toggleLine.bind(this)
+    this.expandAllSongs = this.expandAllSongs.bind(this)
+    this.collapseAllSongs = this.collapseAllSongs.bind(this)
 
     this.state = {
       songDetails: songDetails,
@@ -57,6 +59,8 @@ class App extends Component {
             uniqueFound={this.state.uniqueFound}
             allTotal={this.state.totalWords}
             allFound={this.state.foundCount}
+            expandAllSongs={this.expandAllSongs}
+            collapseAllSongs={this.collapseAllSongs}
             log={this.state.log}
           />
         </div>
@@ -125,6 +129,23 @@ class App extends Component {
     var currentSongDetails = this.state.songDetails
     currentSongDetails[song].visible = !currentSongDetails[song].visible
     this.setState({ songDetails: currentSongDetails })
+  }
+
+  expandAllSongs() {
+    let songDetails = this.state.songDetails;
+    songDetails.forEach(song => {
+      song["visible"] = true
+    })
+    this.setState({ songDetails: songDetails })
+  }
+
+  collapseAllSongs() {
+    console.log("collapseAllSongs")
+    let songDetails = this.state.songDetails;
+    songDetails.forEach(song => {
+      song["visible"] = false
+    })
+    this.setState({ songDetails: songDetails })
   }
 }
 
