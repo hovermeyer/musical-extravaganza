@@ -243,7 +243,7 @@ def to_line_file(filepath):
 if __name__ == "__main__":
   if len(sys.argv) == 1:
     for parent, _dirs, files in os.walk(MANUAL_DIRECTORY):
-      for file in sort_numerically(files):
+      for file in sort_numerically([file for file in files if file.endswith(".yml")]):
         filepath = os.path.join(parent, file)
         print(f"Processing `{filepath}`")
         to_line_file(filepath)
