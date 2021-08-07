@@ -54,17 +54,17 @@ class HeaderBar extends Component {
       {
         name: 'Timestamp',
         selector: row => `${row.time.getHours().toString().padStart(2, '0')}:${row.time.getMinutes().toString().padStart(2, '0')}:${row.time.getSeconds().toString().padStart(2, '0')}`,
-        sortable: true,
+        sortable: false,
       },
       {
         name: 'Word',
         selector: row => row.word,
-        sortable: true,
+        sortable: false,
       },
       {
         name: '# of instances',
         selector: row => row.instance_count,
-        sortable: true,
+        sortable: false,
       },
     ];
 
