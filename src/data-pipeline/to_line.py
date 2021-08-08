@@ -137,7 +137,10 @@ speaker_list = pp.Forward()
 name = pp.Regex(r'(?:[A-Z\/\']+ )*(?:[A-Z\/\']+)')
 exception_list = (pp.Suppress('(') + pp.Suppress('EXCEPT') + speaker_list + pp.Suppress(')'))
 item = pp.Group(name.setResultsName("name") + pp.Optional(exception_list).setResultsName("exceptions"))
-speaker_list <<= item + pp.Optional(pp.ZeroOrMore(pp.Suppress(',') + item) + pp.Optional(pp.Suppress(',')) + pp.Suppress('and') + item)
+speaker_list <<= item + pp.Optional(
+  pp.ZeroOrMore(pp.Suppress(',') + item) +
+  pp.Optional(pp.Optional(pp.Suppress(',')) + pp.Suppress('and') + item)
+)
 parenthetical = (pp.Suppress('(') + speaker_list + pp.Suppress(')')).setResultsName("parenthetical")
 speaker_line = speaker_list.setResultsName("speakers") + pp.Optional(pp.Optional(pp.Suppress('and')) + parenthetical) + pp.Suppress(':')
 
