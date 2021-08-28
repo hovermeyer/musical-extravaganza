@@ -82,7 +82,7 @@ class App extends Component {
   }
 
 
-  //This is stupid and repeated but I am currently trying to improve some other things and just needed this functional. 
+  //This is stupid and repeated but I am currently trying to improve some other things and just needed this functional.
   loadLog = async (file) => {
     const reader = new FileReader()
     reader.onload = async (e) => { 

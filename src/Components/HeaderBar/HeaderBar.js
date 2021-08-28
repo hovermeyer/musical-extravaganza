@@ -71,10 +71,10 @@ class HeaderBar extends Component {
         sortable: false,
       },
     ];
-
+//Adjusted log just to show 10 since it was what was slowing us down
     return <DataTable
       columns={columns}
-      data={this.props.log}
+      data={this.props.log.slice(0,9)}
       striped={true}
       noDataComponent="No words found yet"
       fixedHeader={true}

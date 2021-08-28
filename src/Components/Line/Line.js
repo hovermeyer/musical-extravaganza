@@ -10,7 +10,6 @@ class Line extends Component {
     super(props);
     this.getLine = this.getLine.bind(this);
     this.getSpeakerLabel = this.getSpeakerLabel.bind(this);
-    this.onDoubleClick = this.onDoubleClick.bind(this);
     this.toggleLine = this.toggleLine.bind(this);
     this.renderPeek = this.renderPeek.bind(this);
   }
@@ -48,9 +47,6 @@ class Line extends Component {
     return formattedString
   }
 
-  onDoubleClick(e) {
-    console.log(e)
-  }
 
   replaceBlank(word) {
     if (word == null) {
