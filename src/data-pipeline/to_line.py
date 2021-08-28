@@ -137,7 +137,10 @@ speaker_list = pp.Forward()
 name = pp.Regex(r'(?:[A-Z\/\']+ )*(?:[A-Z\/\']+)')
 exception_list = (pp.Suppress('(') + pp.Suppress('EXCEPT') + speaker_list + pp.Suppress(')'))
 item = pp.Group(name.setResultsName("name") + pp.Optional(exception_list).setResultsName("exceptions"))
-speaker_list <<= item + pp.Optional(pp.ZeroOrMore(pp.Suppress(',') + item) + pp.Optional(pp.Suppress(',')) + pp.Suppress('and') + item)
+speaker_list <<= item + pp.Optional(
+  pp.ZeroOrMore(pp.Suppress(',') + item) +
+  pp.Optional(pp.Optional(pp.Suppress(',')) + pp.Suppress('and') + item)
+)
 parenthetical = (pp.Suppress('(') + speaker_list + pp.Suppress(')')).setResultsName("parenthetical")
 speaker_line = speaker_list.setResultsName("speakers") + pp.Optional(pp.Optional(pp.Suppress('and')) + parenthetical) + pp.Suppress(':')
 
@@ -243,7 +246,7 @@ def to_line_file(filepath):
 if __name__ == "__main__":
   if len(sys.argv) == 1:
     for parent, _dirs, files in os.walk(MANUAL_DIRECTORY):
-      for file in sort_numerically(files):
+      for file in sort_numerically([file for file in files if file.endswith(".yml")]):
         filepath = os.path.join(parent, file)
         print(f"Processing `{filepath}`")
         to_line_file(filepath)

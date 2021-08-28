@@ -24,6 +24,9 @@ class ParseSpeakerLineCase(unittest.TestCase):
   def test_multi_speakers_with_oxford_comma(self):
     self.assertEqual("ELIZA, HAMILTON, and PHILIP", parse_speaker_line("HAMILTON, PHILIP, and ELIZA:"))
 
+  def test_multi_speakers_comma_separated(self):
+    self.assertEqual("HAMILTON, LAFAYETTE, LAURENS, and MULLIGAN", parse_speaker_line("HAMILTON, LAFAYETTE, MULLIGAN, LAURENS:"))
+
   def test_single_parenthetical(self):
     self.assertEqual("ELIZA, HAMILTON, and PHILIP (COMPANY)", parse_speaker_line("HAMILTON, PHILIP and ELIZA and (COMPANY):"))
 
@@ -32,6 +35,9 @@ class ParseSpeakerLineCase(unittest.TestCase):
 
   def test_multi_parenthetical(self):
     self.assertEqual("ELIZA, HAMILTON, and PHILIP (BURR, LAFAYETTE, and MULLIGAN)", parse_speaker_line("HAMILTON, PHILIP and ELIZA and (LAFAYETTE, BURR and MULLIGAN):"))
+
+  def test_multi_parenthetical_comma_separated(self):
+    self.assertEqual("LAURENS (HAMILTON, LAFAYETTE, and MULLIGAN)", parse_speaker_line("LAURENS and (HAMILTON, LAFAYETTE, MULLIGAN):"))
 
   def test_single_exception_parenthetical(self):
     self.assertEqual("COMPANY (EXCEPT HAMILTON)", parse_speaker_line("COMPANY (EXCEPT HAMILTON):"))
