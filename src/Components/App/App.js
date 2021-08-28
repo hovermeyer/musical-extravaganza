@@ -34,6 +34,7 @@ class App extends Component {
     this.toggleLine = this.toggleLine.bind(this)
     this.expandAllSongs = this.expandAllSongs.bind(this)
     this.collapseAllSongs = this.collapseAllSongs.bind(this)
+    this.loadLog = this.loadLog.bind(this)
 
     this.state = {
       songDetails: songDetails,
@@ -61,6 +62,7 @@ class App extends Component {
             allFound={this.state.foundCount}
             expandAllSongs={this.expandAllSongs}
             collapseAllSongs={this.collapseAllSongs}
+            loadLog={this.loadLog}
             log={this.state.log}
           />
         </div>
@@ -77,6 +79,47 @@ class App extends Component {
 
   normalizeWord(word) {
     return word.toLowerCase().replace(/[^a-z0-9]/, '');
+  }
+
+
+  //This is stupid and repeated but I am currently trying to improve some other things and just needed this functional. 
+  loadLog = async (file) => {
+    const reader = new FileReader()
+    reader.onload = async (e) => { 
+      const text = (e.target.result)
+      var log = JSON.parse(text)
+      let currentState = this.state
+      log.forEach(line=>{
+
+        let indexesToChange = this.checkWords(line.word)
+        if (indexesToChange != null) {
+          indexesToChange.forEach(wordLocator => {
+            let song = wordLocator[0]
+            let line = wordLocator[1]
+            let word = wordLocator[2]
+            currentState.songDetails[song].lines[line].knownWords[word] = currentState.songDetails[song].lines[line].words[word]
+            currentState.songDetails[song].foundWords += 1
+          })
+          currentState.wordsFound[line.word] = true
+          var time = new Date(line.time)
+          currentState.log.unshift(
+            {
+              time: time,
+              word: line.word,
+              instance_count: indexesToChange.length,
+            },
+          )
+          currentState.foundCount += indexesToChange.length
+          currentState.uniqueFound += 1
+          currentState.searchValue = ""
+        }
+
+
+      })
+      this.setState(currentState)
+
+    };
+    reader.readAsText(file)
   }
 
   //Purpose: set search term based on change event passed

@@ -14,6 +14,7 @@ class HeaderBar extends Component {
     this.collapseAllSongs = this.collapseAllSongs.bind(this)
     this.renderLog = this.renderLog.bind(this)
     this.downloadSaveFile = this.downloadSaveFile.bind(this)
+    this.onFileUpload = this.onFileUpload.bind(this)
   }
 
   render() {
@@ -44,6 +45,9 @@ class HeaderBar extends Component {
         {this.renderLog()}
         <div className="download-button">
           <a onClick={this.downloadSaveFile}>Download <FontAwesomeIcon icon={faDownload} /></a>
+        </div>
+        <div className='upload-button'>
+          <input type="file" name="file" onChange={this.onFileUpload}/>
         </div>
       </div>
     );
@@ -85,6 +89,10 @@ class HeaderBar extends Component {
         word: logEntry.word,
       }
     }));
+  }
+
+  onFileUpload(e){
+    this.props.loadLog(e.target.files[0])
   }
 
   downloadSaveFile() {
