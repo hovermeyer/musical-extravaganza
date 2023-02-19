@@ -8,5 +8,5 @@ Do you know all the lyrics of your favourite musicals? Prove it!
 git clone https://github.com/hovermeyer/musical-extravaganza.git
 cd musical-extravaganza
 npm install
-npm start
+NODE_ENV=production npm start
 ```
